@@ -1,0 +1,73 @@
+-- Email ID,User Name of user who book highest number of Total tickets.
+select * from "USER" natural join (select email_id,sum(gold_seat+silver_seat+bronze_seat) as seat from audience group by email_id order by seat desc limit 1);
+
+--Give the match details which will highest number of audience
+select Timestamp,Ground_Name,Team_Name,Opponent_Team
+from UPCOMING_MATCH as U
+where timestamp in
+(select Timestamp
+ from TICKET_BOOKING
+group by Timestamp
+order by count(*) DESC
+LIMIT 1)
+
+--list player's details who got unsold in 2024 dispite of played in 2023
+select * from stat natural join ((select player_id from "TEAM'S_PLAYER" where year=2023) except (select player_id from "TEAM'S_PLAYER" where year=2024)) where year=2023;
+
+--name the company which sponsors a same team more than 1 time.
+select company_name,team_name from team_sponsor group by company_name, team_name having count(company_name)>1;
+
+
+--virat kohli's yearwise runs.
+select year,sum(runs) as runs from stat natural join player where name='Virat Kohli' group by year;
+
+
+--in which cities user with email_id="Trivedi@lawyer.com" has to go to see upcoming matches and how many tickets he bought.
+select city,(i.Gold_Seat+i.silver_seat+i.bronze_seat) as total_tickets from (user natural join audience natural join ticket_booking natural join upcoming_match) as i join stadium as j on i.Ground_Name=j.Ground_Name where email_id='Trivedi@lawyer.com';
+
+-- list player who has scored highest runs from each team in 2023.
+select name,ii.runs,ii.team_name from player natural join (select player_id,runs,team_name from "TEAM'S_PLAYER" natural join stat where (runs,team_name) IN (select max(runs),team_name from "TEAM'S_PLAYER" natural join stat where year=2023 group by team_name)) as ii;
+
+--list player's name and DOB whose birth month is between feb to july.
+select name,DOB from player where extract (month from DOB) >2 and extract (month from DOB) < 7; 
+
+-- largest stadium
+select Ground_Name,(Gold_seat + Silver_Seat+ Bronze_seat) as seat
+from stadium
+order by seat DESC
+LIMIT 1
+
+-- name coach of the team in which MS Dhoni was playing in year 2024.
+SELECT Team_Name,Year,Coach from team where team_name=(select team_name  FROM Player as i join "TEAM'S_PLAYER" as i2 ON i.Player_ID=i2.Player_ID where year=2024 and name = 'MS Dhoni') and year=2024;
+
+--What are total runs of captain of KKR in 2023'
+select player_id,name,sum(runs) as total_runs from stat natural join player where player_id= (select player_id from player where name = (select captain from team where year=2023 and team_name='Kolkata Knight Riders')) group by player_id,name;
+
+--Captain of which team was sold at lowest price
+select name, sold_price from player natural join stat where name IN (select captain from team) order by sold_price limit 1;
+
+--Youngest captain of IPL history
+select player_id,name,DOB from player where name IN (select captain from team) order by DOB desc limit 1;
+
+--Name the CEO ,Company Name and amount sponsers of winning team
+select * from SPONSOR_DETAILS as i1 join (select company_name,amount from TEAM_SPONSOR where (team_name,year) IN (select winner,year from IPL_season where year != 2024)) as i2 on i1.company_name=i2.company_name;
+
+--Name the CEO ,Company Name and amount sponsers of POS'team
+select * from SPONSOR_DETAILS as i1 join (select company_name,amount from TEAM_SPONSOR where (team_name,year) IN 
+(select team_name,year from "TEAM'S_PLAYER" where (player_id,year) IN 
+(select player_of_the_season,year from IPL_season where year != 2024))) as i2 on i1.company_name=i2.company_name;
+ 
+--Gives match details in which higest no of tickets are booked 
+select * from upcoming_match natural join(select timestamp,sum(gold_seat+silver_seat+bronze_seat) as seat from upcoming_match natural join ticket_booking natural join audience group by timestamp order by seat desc limit 1) as i;
+
+--how many runs does purple cap holder require to become orange cap holder for 2024
+select ((select runs from stat where (player_id,year) IN (select orange_cap,year from IPL_SEASON where year=2024)) - (select runs from stat where (player_id,year) IN (select purple_cap,year from IPL_SEASON where year=2024))) as require;
+
+--which upcoming_match genearated highest revenue till now
+select * from upcoming_match natural join (select timestamp,sum(gold_seat*gold_price+silver_seat*silver_price+bronze_seat*bronze_price) as money from upcoming_match natural join ticket_booking natural join audience group by timestamp order by money desc limit 1) as i;
+
+--in which year IPL received highest sponsorship amount
+select year,sum(amount) from SEASON_SPONSOR group by year order by sum(amount) desc limit 1;
+
+--give the economy of player who got purple cap in 2023
+select player_id,economy from stat join (select purple_cap from IPL_SEASON where year=2023) as i on player_id=i.purple_cap where year=2023;

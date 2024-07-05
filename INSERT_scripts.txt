@@ -1,0 +1,1457 @@
+-- PLAYER
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (1, 'Ravindranath Jadeja', 'All-rounder', 'India', '1988-12-06');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (2, 'MS Dhoni', 'Wicket-keeper', 'India', '1981-07-07');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (3, 'Deepak Chahar', 'Bowler', 'India', '1992-08-07'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (4, 'Moeen Ali', 'All-rounder', 'England', '1987-08-16');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (5, 'Ruturaj Gaikwad', 'Batsman', 'India', '1990-01-31');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (6, 'Shivam Dube', 'All-rounder', 'India', '1996-06-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (7, 'Mitchell Santner', 'Bowler', 'New Zealand', '1992-09-09');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (8, 'Rajvardhan Hangargekar', 'Bowler', 'India', '1999-11-10');  
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (9, 'Prashant Solanki', 'Bowler', 'India', '1990-01-31'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (10, 'Devon Conway', 'Batsman', 'New Zealand', '1991-08-08');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (11, 'Maheesh Theekshana', 'Bowler', 'Sri Lanka', '1990-01-31'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (12, 'Nishant Sindhu', 'All-rounder', 'India', '1991-08-08'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (13, 'Ajinkya Rahane', 'Batsman', 'India', '1988-06-06');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (14, 'Shaik Rasheed', 'Batsman', 'India', '1991-08-08'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (15, 'Ajay Mandal', 'All-rounder', 'India', '1987-08-16'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (16, 'Tushar Deshpande', 'Bowler', 'India', '1987-08-16'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (17, 'Simarjeet Singh', 'Bowler', 'India', '2003-09-18'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (18, 'Matheesha Pathirana', 'Bowler', 'Sri Lanka', '2003-09-18'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (19, 'Mukesh Choudhary', 'Bowler', 'India', '1987-08-16'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (20, 'Shardul Thakur', 'All-rounder', 'India', '1989-10-16');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (21, 'Rachin Ravindra', 'All-rounder', 'New Zealand', '2003-09-18');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (22, 'Sameer Rizvi', 'Batsman', 'India', '1987-08-16'); 
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (23, 'Daryl Mitchell', 'All-rounder', 'New Zealand', '1989-05-27');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (24, 'Mustafizur Rahman', 'Bowler', 'Bangladesh', '1994-08-06');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (25, 'Rohit Sharma', 'Batsman', 'India', '1987-04-30');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (26, 'Ishan Kishan', 'Wicket-keeper', 'India', '1998-07-18');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (27, 'Jasprit Bumrah', 'Bowler', 'India', '1993-12-06');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (28, 'Hardik Pandya', 'All-rounder', 'India', '1993-10-27');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (29, 'Tilak Varma', 'Batsman', 'India', '2002-11-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (30, 'Vishnu Vinod', 'Wicket-keeper', 'India', '1995-01-12');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (31, 'Shams Mulani', 'Bowler', 'India', '1992-09-20');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (32, 'Nehal Wadhera', 'All-rounder', 'India', '1998-05-07');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (33, 'Kumar Kartikeya Singh', 'Bowler', 'India', '1990-11-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (34, 'Arshad Khan', 'All-rounder', 'India', '1987-03-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (35, 'Alshad Khan', 'All-rounder', 'India', '1989-04-09');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (36, 'Mathwal', 'Bowler', 'India', '1994-08-21');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (37, 'Dewalt Brevie', 'Batsman', 'West Indies', '1985-06-16');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (38, 'Tendulkar', 'Batsman', 'India', '1999-12-02');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (39, 'Piyush Chawla', 'Bowler', 'India', '1991-02-10');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (40, 'Suryakumar Yadav', 'Batsman', 'India', '1989-09-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (41, 'Tim David', 'All-rounder', 'Singapore', '1987-02-10');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (42, 'Jason Behrendorff', 'Bowler', 'Australia', '1986-09-13');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (43, 'Romario Shepherd', 'All-rounder', 'Guyana', '1994-11-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (44, 'Shahrukh Khan', 'All-rounder', 'India', '1994-11-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (45, 'Virat Kohli', 'Batsman', 'India', '1988-11-05');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (46, 'Glenn Maxwell', 'All-rounder', 'Australia', '1988-10-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (47, 'Faf Du Plessis', 'Batsman', 'South Africa', '1984-03-13');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (48, 'Mohammad Siraj', 'Bowler', 'India', '1994-03-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (49, 'Cameron Green', 'All-rounder', 'Australia', '1998-06-06');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (50, 'Dinesh Karthik', 'Batsman/Wicket-keeper', 'India', '1985-01-01');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (51, 'Rajat Patidar', 'Batsman', 'India', '2000-08-27');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (52, 'Anuj Rawat', 'Batsman/Wicket-keeper', 'India', '1990-05-13');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (53, 'Akash Deep', 'Bowler', 'India', '1997-12-15');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (54, 'Mahipal Lomror', 'All-rounder', 'India', '1994-11-21');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (55, 'Suyash Prabhudessai', 'Batsman', 'India', '1994-06-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (56, 'Karn Sharma', 'Batsman', 'India', '1996-06-18');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (57, 'Reece Topley', 'Bowler', 'England', '1991-03-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (58, 'Himanshu Sharma', 'Bowler', 'India', '2001-04-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (59, 'Manoj Bhandage', 'All-rounder', 'India', '1985-07-16');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (60, 'Rajan Kumar', 'Bowler', 'India', '1992-03-10');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (61, 'Avinash Singh', 'Bowler', 'India', '1984-12-22');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (62, 'Sonu Yadav', 'All-rounder', 'India', '2005-11-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (63, 'Glenn Phillips', 'Batsman/Wicket-keeper', 'New Zealand', '1992-04-01');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (64, 'Washington Sundar', 'All-Rounder', 'India', '1999-10-08');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (65, 'Abhishek Sharma', 'All Rounder', 'India', '2000-05-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (66, 'Samarth Vyas', 'All-rounder', 'India', '2000-01-01');
+INSERT INTO PLAYER (Player_ID  Name, Role, Country, DOB)VALUES (67, 'Sanvir Singh', 'All-rounder', 'India', '1998-07-15');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (68, 'Nitish Kumar Reddy', 'All-rounder', 'India', '1999-05-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (69, 'Vivrant Sharma', 'All-rounder', 'India', '2000-11-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (70, 'Rahul Tripathi', 'Batsman', 'India', '1991-03-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (71, 'Mayank Agarwal', 'Batsman', 'India', '1990-02-16');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (72, 'Abdul Samad', 'Batsman', 'India', '2001-01-01');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (73, 'Anmolpreet Singh', 'Batsman', 'India', '1995-01-01');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (74, 'Aiden Markram', 'Batsman', 'South Africa', '1994-10-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (75, 'Harry Brook', 'Batsman', 'England', '1999-11-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (76, 'Adil Rashid', 'Bowler', 'England', '1988-08-17');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (77, 'Fazalhaq Farooqi', 'Bowler', 'Afghanistan', '2000-10-02');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (78, 'Mayank Markande', 'Bowler', 'India', '1997-11-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (79, 'Bhuvneshwar Kumar', 'Bowler', 'India', '1990-02-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (80, 'Marco Jansen', 'Bowler', 'South Africa', '2000-04-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (81, 'Umran Malik', 'Bowler', 'India', '1999-11-22');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (82, 'Kartik Tyagi', 'Bowler', 'India', '2000-11-08');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (83, 'T Natarajan', 'Bowler', 'India', '1993-04-11');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (84, 'Adil Rashid', 'Bowler', 'England', '1988-08-17');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (85, 'Mayank Dagar', 'Bowler', 'India', '1992-10-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (86, 'Akeal Hosein', 'Bowler', 'West Indies', '1993-04-25');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (87, 'Heinrich Klaasen', 'Wicket-keeper', 'South Africa', '1991-03-19');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (88, 'Upendra Singh Yadav', 'Wicket-keeper', 'India', '1989-01-17');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (89, 'Harry Brook', 'Batsman', 'England', '1999-11-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (90, 'Samarth Vyas', 'All-rounder', 'India', '1998-09-12');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (91, 'Kartik Tyagi', 'Bowler', 'India', '2000-11-08');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (92, 'Vivrant Sharma', 'All-rounder', 'India', '2000-11-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (93, 'Akeal Hosein', 'Bowler', 'West Indies', '1993-04-25');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (94, 'Axar Patel', 'All Rounder', 'India', '1992-01-20');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (95, 'Mitchell Marsh', 'All-Rounder', 'Australia', '1991-10-01');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (96, 'Lalit Yadav', 'All-Rounder', 'India', '2003-11-22');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (97, 'Ripal Patel', 'All-Rounder', 'India', '1991-09-02');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (98, 'Vicky Ostwal', 'All-Rounder', 'India', '1984-02-09');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (99, 'Aman Khan', 'All Rounder', 'India', '2000-02-24');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (100, 'Prithvi Shaw', 'Batsman', 'India', '1999-11-09');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (101, 'David Warner', 'Batsman', 'Australia', '1986-10-25');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (102, 'Sarfaraz Khan', 'Batsman', 'India', '1997-10-22');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (103, 'Yash Dhull', 'Batsman', 'India', '2002-11-18');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (104, 'Rovman Powell', 'Batsman', 'West Indies', '1990-07-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (105, 'Manish Pandey', 'Batsman', 'India', '1989-09-10');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (106, 'Rilee Rossouw', 'Batsman', 'South Africa', '1989-10-09');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (107, 'Rishabh Pant', 'Wicket-keeper', 'India', '1997-10-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (108, 'Anrich Nortje', 'Bowler', 'South Africa', '1993-11-16');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (109, 'Kamlesh Nagarkoti', 'Bowler', 'India', '1999-12-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (110, 'Mustafizur Rahman', 'Bowler', 'Bangladesh', '1995-06-09');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (111, 'Kuldeep Yadav', 'Bowler', 'India', '1994-12-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (112, 'Khaleel Ahmed', 'Bowler', 'India', '1998-12-05');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (113, 'Chetan Sakariya', 'Bowler', 'India', '1998-08-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (114, 'Pravin Dubey', 'All-rounder', 'India', '1998-07-01');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (115, 'Lungi Ngidi', 'Bowler', 'South Africa', '1996-03-8');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (116, 'Ishant Sharma', 'Bowler', 'India', '1988-09-02');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (117, 'Mukesh Kumar', 'Bowler', 'India', '2000-10-24');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (118, 'Phil Salt', 'Wicket-keeper', 'England', '1987-08-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (119, 'David Wiese', 'All-rounder', 'South Africa', '1985-05-18');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (120, 'Venkatesh Iyer', 'All-rounder', 'India', '2001-12-12');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (121, 'Anukul Roy', 'All-rounder', 'India', '1998-02-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (122, 'Andre Russell', 'All-rounder', 'West Indies', '1988-04-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (123, 'T', 'All-rounder', 'India', '1988-04-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (124, 'Vaibhav Arora', 'All-rounder', 'India', '1999-09-21');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (125, 'Shakib Al Hasan', 'All-rounder', 'Bangladesh', '1987-03-24');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (126, 'Shreyas Iyer', 'Batsman', 'India', '1995-12-06');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (127, 'Nitish Rana', 'Batsman', 'India', '1994-12-27');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (128, 'Rinku Singh', 'Batsman', 'India', '2001-10-10');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (129, 'Mandeep Singh', 'Batsman', 'India', '1991-12-18');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (130, 'Kulwant Khejroliya', 'Bowler', 'India', '1994-05-20');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (131, 'Suyash Sharma', 'Bowler', 'India', '2000-05-12');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (132, 'Lockie Ferguson', 'Bowler', 'New Zealand', '1991-03-13');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (133, 'Harshit Rana', 'Bowler', 'India', '1988-04-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (134, 'Tim Southee', 'Bowler', 'New Zealand', '1988-12-11');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (135, 'Shardul Thakur', 'Bowler', 'India', '1989-10-16');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (136, 'Varun Chakravarthy', 'Bowler', 'India', '1991-08-29');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (137, 'Umesh Yadav', 'Bowler', 'India', '1987-10-25');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (138, 'Sunil Narine', 'Bowling All-rounder', 'Trinidad and Tobago', '1989-05-30');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (139, 'Narayan Jagadeeshan', 'Wicket-keeper Batsman', 'India', '1990-04-24');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (140, 'Johnson Charles', 'Wicket-keeper Batsman', 'West Indies', '1989-01-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (141, 'Rahmanullah Gurbaz', 'Wicket-keeper Batsman', 'Afghanistan', '2001-04-28');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (142, 'Avesh Khan', 'Bowler', 'India', '1996-12-13');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (143, 'Riyan Parag', 'All Rounder', 'India', '1999-10-10');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (144, 'Jason Holder', 'All-Rounder', 'West Indies', '1991-11-05');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (145, 'Donovan Ferreira', 'All Rounder', 'South Africa', '1987-05-12');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (146, 'Akash Vashisht', 'All Rounder', 'India', '1995-08-01');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (147, 'Abdul PA', 'All-Rounder', 'India', '1998-06-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (148, 'Jos Buttler', 'Batsman', 'England', '1989-09-08');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (149, 'Yashasvi Jaiswal', 'Batsman', 'India', '2001-12-02');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (150, 'Shimron Hetmyer', 'Batsman', 'Guyana', '1996-12-26');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (151, 'Devdutt Padikkal', 'Batsman', 'India', '2000-07-07');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (152, 'Joe Root', 'Batsman', 'England', '1990-12-30');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (153, 'Sanju Samson', 'Wicket-keeper Batsman', 'India', '1994-11-11');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (154, 'Dhruv Jurel', 'Batsman/Wicket-keeper', 'India', '1989-07-22');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (155, 'R. Ashwin', 'Bowler', 'India', '1989-09-17');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (156, 'Trent Boult', 'Bowler', 'New Zealand', '1989-07-22');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (157, 'KC Cariappa', 'Bowler', 'India', '1992-03-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (158, 'Sandeep Sharma', 'Bowler', 'India', '1992-09-18');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (159, 'Yuzvendra Chahal', 'Bowler', 'India', '1990-07-23');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (160, 'Navdeep Saini', 'Bowler', 'India', '1992-12-03');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (161, 'Obed McCoy', 'Bowler', 'West Indies', '1998-04-04');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (162, 'Kuldeep Sen', 'Bowler', 'India', '1996-11-19');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (163, 'Kuldip Yadav', 'Bowler', 'India', '1994-12-14');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (164, 'Adam Zampa', 'Bowler', 'Australia', '1992-03-31');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (165, 'KM Asif', 'Bowler', 'Pakistan', '1988-11-08');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (166, 'Murugan Ashwin', 'Bowler', 'India', '1999-08-08');
+INSERT INTO PLAYER (Player_ID, Name, Role, Country, DOB)VALUES (167, 'Kunal Rathore' , 'Wicket-keeper' , 'India' , '1999-08-08');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (168, 'Matthew Short', 'All-Rounder', 'Australia', '1998-01-25');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (169, 'Shahrukh Khan', 'All-Rounder', 'India', '1992-03-27');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (170, 'Liam Livingstone', 'All-Rounder', 'England', '1993-08-01');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (171, 'Rishi Dhawan', 'All-Rounder', 'India', '1990-02-19');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (172, 'Baltej Dhanda', 'All-Rounder', 'India', '1995-11-12');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (173, 'Atharva Taide', 'All-Rounder', 'India', '2001-12-07');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (174, 'Sam Curran', 'All-Rounder', 'England', '1998-10-23');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (175, 'Sikandar Raza', 'All-Rounder', 'Zimbabwe', '1986-05-24');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (176, 'Mohit Rathe', 'All-Rounder', 'India', '1999-09-05');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (177, 'Shivam Singh', 'All-Rounder', 'India', '2000-06-14');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (178, 'Shikhar Dhawan', 'Batsman', 'India', '1985-12-28');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (179, 'Harpreet Brar', 'Batsman', 'India', '1995-03-20');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (180, 'Raj Bawa', 'Batsman', 'India', '2000-11-03');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (181, 'Bhanuka Rajapaksa', 'Batsman', 'Sri Lanka', '1991-10-24');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (182, 'Harpreet Bhatia', 'Batsman', 'India', '1994-07-08');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (183, 'Prabhsimran Singh', 'Batsman/Wicket-keeper', 'India', '1998-05-10');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (184, 'Jitesh Sharma', 'Batsman/Wicket-keeper', 'India', '1990-01-04');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (185, 'Arshdeep Singh', 'Bowler', 'India', '1999-02-16');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (186, 'Kagiso Rabada', 'Bowler', 'South Africa', '1995-11-25');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (187, 'Rahul Chahar', 'Bowler', 'India', '1999-05-14');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (188, 'Nathan Ellis', 'Bowler', 'Australia', '1991-06-26');
+INSERT INTO PLAYER (player_id, Name, role, Country, DOB) VALUES (189, 'Vidwath Kaverappa', 'Bowler', 'India', '2002-01-09');
+
+
+
+
+
+
+--TEAM
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Chennai Super Kings',2024,'N Srinivasan','Stephen Fleming','Ruturaj Gaikwad');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Kolkata Knight Riders',2024,'Shah Rukh Khan','Chandrakant Pandit','Shreyas Iyer');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Gujarat Titans',2024,'Siddharth Patel ','Ashish Nehra','Shubman Gill');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Mumbai Indians',2024,'Mukesh Ambani','Mark Boucher','Hardik Pandya');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Punjab Kings',2024,'Preity Zinta','Trevor Bayliss','Shikhar Dhawan');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Rajasthan Royals',2024,'Manoj Badale','Kumar Sangakkara','Sanju Samson');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Royal Challengers Bengaluru',2024,'Prathmesh Mishra','Andy Flower','Faf Du Plessis');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Sunrisers Hyderabad',2024,'Kalanithi Maran','Daniel Vettori','Pat Cummins');
+
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Chennai Super Kings',2023,'N Srinivasan','Stephen Fleming','Ruturaj Gaikwad');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Kolkata Knight Riders',2023,'Shah Rukh Khan','Chandrakant Pandit','Shreyas Iyer');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Gujarat Titans',2023,'Siddharth Patel ','Ashish Nehra','Shubman Gill');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Mumbai Indians',2023,'Mukesh Ambani','Mark Boucher','Hardik Pandya');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Punjab Kings',2023,'Preity Zinta','Trevor Bayliss','Shikhar Dhawan');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Rajasthan Royals',2023,'Manoj Badale','Kumar Sangakkara','Sanju Samson');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Royal Challengers Bengaluru',2023,'Prathmesh Mishra','Andy Flower','Faf Du Plessis');
+INSERT INTO TEAM(Team_Name, Year, Owner, Coach, Captain) VALUES ('Sunrisers Hyderabad',2023,'Kalanithi Maran','Daniel Vettori','Pat Cummins');
+
+
+
+
+
+
+--SPONSOR_DETAILS
+
+INSERT INTO SPONSOR_DETAILS (Company_Name, Country, CEO) VALUES
+  ('TVS Motors', 'India', 'K. N. Radhakrishnan'),
+  ('JSW', 'India', 'Sajjan Jindal'),
+  ('Adani Group', 'India', 'Gautam Adani'),
+  ('TVS Apache', 'India', 'K. N. Radhakrishnan'),  -- Same CEO as TVS Motors
+  ('RPSG Group', 'India', 'Sanjiv Goenka'),
+  ('Reliance Jio', 'India', 'Mukesh Ambani'),
+  ('PhonePe', 'India', 'Sameer Nigam'),
+  ('Mankind Pharma', 'India', 'Rajeev Juneja'),
+  ('MRF Ltd.', 'India', 'L. Ganesh'),
+  ('Sun Pharma', 'India', 'Abhay Shukla');
+
+INSERT INTO SPONSOR_DETAILS (Company_Name, Country, CEO) VALUES
+  ('Amul', 'India', 'Tathya Prajapati' ),   -- Sponsor (Disney+ Hotstar)
+  ('Kamla Pasand', 'India', 'Zeel Boghara'),  -- Associate Sponsor (Star Sports) 
+  ('Dream11', 'India', 'Harsh Jain & Bhavit Sheth'),               -- Co-presenting sponsor (Disney+ Hotstar)
+  ('Vimal', 'India', 'Ravi Modi'),  -- Sponsor (Disney+ Hotstar)
+  ('Asian Paints', 'India', 'Amit Syngle'),  -- Sponsor (Disney+ Hotstar)
+  ('Charged by Thums Up', 'India', 'Anmol Verma'),  -- Sponsor (Disney+ Hotstar) 
+  ('Joy Personal Care', 'India', 'Pirojsha Aga'),  -- Sponsor (Disney+ Hotstar)
+  ('Dettol', 'India', 'Laxman Narasimhan'),  -- Sponsor (Disney+ Hotstar)
+  ('Star Sports', 'India', 'P. B. Rao'),   -- Official Broadcaster (Disney Star) 
+  ('JioCinema', 'India', 'Mukesh Ambani'),  -- Official Digital Streaming Partner (Viacom18)  
+  ('Britannia', 'India', 'Varun Berry'),  -- Associate Sponsor (Star Sports) 
+  ('Pepsi', 'India', 'Ramon Laguarta'),  -- Associate Sponsor (Star Sports) 
+  ('Parle Products', 'India', 'Prakash Chauhan'),  -- Associate Sponsor (Star Sports) 
+  ('Google Pixel', 'USA', 'Sundar Pichai'),  -- Associate Sponsor (Star Sports)  
+  ('Haier', 'China', 'Zhang Ruimin'),  -- Associate Sponsor (Star Sports) 
+  ('Jindal Steel', 'India', 'Naveen Jindal'),  -- Associate Sponsor (Star Sports)  
+  ('Vodafone Idea', 'India', 'Kumar Mangalam Birla'), -- Associate Sponsor (Star Sports) 
+  ('Dalmia Cements', 'India', 'Puneet Dalmia'), -- Associate Sponsor (Star Sports) 
+  ('Rapido', 'India', 'Aravind Sanka & Pavan Guntupalli'), -- Associate Sponsor (Star Sports) 
+  ('Colgate-Palmolive', 'USA', 'Noel Wallace'), -- Associate Sponsor (Broadcast)
+  ('ICICI Lombard', 'India', 'Sanjiv Bajaj'), -- Associate Sponsor (Broadcast) 
+  ('Angel Broking', 'India', 'Dinesh Thakkar'), -- Associate Sponsor (Broadcast)
+  ('Ajanta Pharma', 'India', 'Rajesh Desai'), -- Associate Sponsor (Broadcast)
+  ('TATA Group', 'India', 'Ratan Tata'),
+  ('CEAT TYRE', 'India', 'Nitin Kanzaria');
+  
+
+
+
+
+--STADIUM
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('MA Chidambaram Stadium', 'Chennai', 10000, 10000, 20000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Arun Jaitley Stadium', 'Delhi', 10000, 10800, 21000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Narendra Modi Stadium', 'Ahmedabad', 15000, 17000, 100000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Eden Gardens', 'Kolkata', 30000, 20000, 18000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('BRSABV Ekana Cricket Stadium', 'Lucknow', 20000, 20000, 10000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Wankhede Stadium', 'Mumbai', 15000, 12000, 66108);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Inderjit Singh Bindra Stadium', 'Mohali', 5000, 12000, 10000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Sawai Mansingh Stadium', 'Jaipur', 5000, 10000, 15000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('M. Chinnaswamy Stadium', 'Bangalore', 12000, 15000, 66800);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Rajiv Gandhi International Cricket Stadium', 'Hyderabad', 12000, 15000, 28800);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('RCA International Cricket Stadium', 'Jaipur', 22500, 15000, 37500);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Kochi International Stadium', 'Kochi', 19500, 13000, 32500);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Gwalior International Cricket Stadium', 'Gwalior', 18000, 12000, 30000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Indore Sports Complex', 'Indore', 15000, 10000, 25000);
+INSERT INTO STADIUM (Ground_Name, City, Gold_Seat, Silver_Seat, Bronze_Seat)VALUES ('Barkatullah Stadium', 'Bhopal', 15000, 10000, 25000);
+
+
+
+
+
+
+--USER
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('admin1@gmail.com', 'Kashyap ', 'ncalsejfoaemcq', 'admin');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('admin2@gmail.com', 'Het', 'alefoawefnenw', 'admin');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('admin3@gmail.com', 'Tathya', 'lajioefnwonf', 'admin');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('admin4@gmail.com', 'Jay', 'kshofvwnionewn', 'admin');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('admin5@gmail.com', 'Amit', 'vwnoenflewncsdf', 'admin');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Nadkarni@accountant.in', 'Milind Nadkarni', 'numbercruncher', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Chopra@pilot.in', 'Captain Maya Chopra', 'wingsofhope', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Patel@architect.com', 'Mihir Patel', 'designingdreams', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Rao@journalist.co.in', 'Anusha Rao', 'unveilingthetruth', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Mehta@scientist.in', 'Amit Mehta', 'scienceenthusiast', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Joshi@engineer.com', 'Priya Joshi', 'buildingthefuture', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Verma@healthcare.in', 'Dr. Aditya Verma', 'wellbeingfirst', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Trivedi@lawyer.com', 'Rohan Trivedi', 'justiceforall', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Pandey@artist.in', 'Riya Pandey', 'artisticflair', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Menon@writer.co.in', 'Kavita Menon', 'weavingstories', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Bhattacharya@designer.com', 'Anjali Bhattacharya', 'fashionforward', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Bose@musician.in', 'Rahul Bose', 'melodicjourney', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Agarwal@entrepreneur.com', 'Priyanka Agarwal', 'innovationdriven', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Iyer@athlete.com', 'Vikram Iyer', 'chasinggreatness', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Nadkarni@chef.co.in', 'Aditi Nadkarni', 'culinarycreations', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Chawla@actor.com', 'Karan Chawla', 'lightscameradraama', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Ahmed@politician.in', 'Javed Ahmed', 'peopleservant', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Kapoor@socialworker.com', 'Anuradha Kapoor', 'advocatingchange', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Dasgupta@farmer.in', 'Sunil Dasgupta', 'growingstrong', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Mahajan@dancer.com', 'Kiara Mahajan', 'dancingwithpassion', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Singh@teacher.edu', 'Anjali Singh', 'inspiringyoungminds', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Das@pharmacist.com', 'Dr. Rohan Das', 'healinghands', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Yadav@dentist.in', 'Dr. Priya Yadav', 'brightestsmiles', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Kumar@veterinarian.com', 'Dr. Aditya Kumar', 'caringforanimals', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Trivedi@pilot.in', 'Captain Ishaan Trivedi', 'conqueringtheskies', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Joshi@programmer.com', 'Rahul Joshi', 'codingadventures', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Verma@dataanalyst.in', 'Ankita Verma', 'datadrivendecisions', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Pandey@cybersecurity.com', 'Vikram Pandey', 'defendingthedigitalworld', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Menon@marketer.co.in', 'Riya Menon', 'reachingtheaudience', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('nikhil.joshi@bank.com', 'Nikhil Joshi', 'bankingsecure', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Trivedi@lawyer.in', 'Aditi Trivedi', 'legaleagle', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Pandey@engineer.com', 'Rahul Pandey', 'engineeringgenius', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Menon@artist.co.in', 'Anjali Menon', 'creativityflows', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Bhattacharya@writer.com', 'Soumitra Bhattacharya', 'wordsmith', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Verma@care.in', 'Dr. Kiran Verma', 'healingtouch', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Jaiswal@scientist.com', 'Priya Jaiswal', 'scienceexplorer', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Rao@pilot.in', 'Captain Aditya Rao', 'soaringhigh', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Bose@musician.com', 'Riya Bose', 'musicalvibes', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Agarwal@entrepreneur.com', 'Vikram Agarwal', 'businessmind', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Iyer@designer.in', 'Shreya Iyer', 'designflair', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Nadkarni@journalist.com', 'Mihir Nadkarni', 'truthseeker', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Chawla@athlete.com', 'Rani Chawla', 'sportingspirit', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Ahmed@chef.co.in', 'Zubair Ahmed', 'culinarygenius', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Kapoor@actor.com', 'Alia Kapoor', 'lightscameraaction', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Dasgupta@politician.in', 'Sonia Dasgupta', 'servingthepeople', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Mahajan@socialworker.com', 'Anuradha Mahajan', 'makingadifference', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Singh@farmer.in', 'Jaswinder Singh', 'kisanpride', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Das@dancer.com', 'Priyanka Das', 'dancingfeet', 'user');
+INSERT INTO "USER" (Email_ID, User_Name, Password, Position) VALUES ('Yadav@teacher.edu', 'Vikas Yadav', 'shapingyoungminds', 'user');
+
+
+
+
+--STAT
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (1, 2024, 234, 8, 3, 18, 4, 12.7, 8.2, 135, 6.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (2, 2024, 187, 12, 5, 12, 3, 18.3, 14.1, 118, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (3, 2024, 312, 5, 7, 24, 7, 11.5, 11.7, 162, 5.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (4, 2024, 156, 15, 2, 10, 2, 14.2, 9.4, 125, 8.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (5, 2024, 401, 3, 4, 32, 8, 10.8, 17.2, 149, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (6, 2024, 278, 7, 1, 21, 5, 15.1, 12.9, 173, 5.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (7, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (8, 2024, 389, 1, 9, 30, 10, 17.5, 19.8, 185, 4.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (9, 2024, 215, 10, 8, 17, 3, 12.3, 10.1, 152, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (10, 2024, 192, 13, 4, 14, 4, 16.4, 8.7, 138, 6.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (11, 2024, 97, 1, 1, 8, 2, 15.7, 7.3, 130, 8.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (12, 2024, 401, 3, 4, 32, 8, 10.8, 17.2, 149, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (13, 2024, 156, 15, 2, 10, 2, 14.2, 9.4, 125, 8.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (14, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (15, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (16, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (17, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (18, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (19, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (20, 2024, 123, 18, 6, 8, 1, 13.9, 7.8, 107, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, atches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (21, 2024, 178, 1, 4, 15, 2, 14.8, 13.5, 127, 7.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (22, 2024, 212, 0, 7, 21, 5, 11.9, 8.9, 141, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (23, 2024, 58, 2, 2, 5, 1, 17.1, 11.2, 102, 8.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (24, 2024, 285, 1, 5, 27, 7, 12.4, 16.7, 158, 5.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (25, 2024, 120, 0, 9, 9, 0, 16.2, 9.4, 115, 7.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (26, 2024, 321, 2, 3, 30, 9, 10.5, 18.1, 182, 4.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (27, 2024, 97, 1, 1, 8, 2, 15.7, 7.3, 130, 8.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (28, 2024, 195, 0, 8, 18, 3, 13.2, 12.8, 165, 6.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (29, 2024, 248, 1, 6, 24, 6, 11.6, 10.3, 143, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (30, 2024, 248, 1, 6, 24, 6, 11.6, 10.3, 143, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (31, 2024, 205, 1, 5, 19, 4, 12.8, 14.2, 136, 6.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (32, 2024, 175, 0, 7, 16, 3, 13.5, 11.5, 128, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (33, 2024, 132, 3, 3, 12, 1, 16.1, 9.8, 114, 8.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (34, 2024, 189, 0, 6, 17, 2, 14.3, 12.3, 131, 7.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (35, 2024, 258, 2, 4, 23, 5, 11.9, 16.5, 149, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (36, 2024, 123, 1, 2, 10, 1, 17.2, 8.7, 123, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (37, 2024, 297, 3, 5, 28, 6, 10.8, 19.3, 168, 4.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (38, 2024, 101, 0, 3, 9, 1, 15.5, 7.9, 136, 7.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (39, 2024, 213, 1, 7, 20, 4, 12.1, 13.9, 142, 6.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (40, 2024, 177, 2, 4, 15, 3, 13.7, 10.6, 130, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (41, 2024, 245, 1, 5, 22, 4, 11.8, 15.7, 146, 5.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (42, 2024, 134, 0, 3, 12, 2, 14.9, 9.1, 118, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (43, 2024, 172, 2, 2, 16, 3, 12.5, 11.8, 129, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (44, 2024, 288, 3, 6, 26, 7, 10.2, 17.9, 155, 5.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (45, 2024, 99, 0, 8, 9, 1, 16.8, 8.5, 131, 7.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (46, 2024, 319, 2, 3, 29, 8, 9.8, 18.3, 179, 4.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (47, 2024, 108, 1, 1, 11, 0, 15.2, 7.1, 124, 7.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (48, 2024, 188, 0, 7, 17, 3, 13.8, 12.6, 133, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (49, 2024, 255, 1, 6, 23, 5, 11.7, 10.9, 148, 6.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (50, 2024, 121, 2, 4, 10, 2, 14.6, 9.7, 122, 7.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (51, 2024, 23, 18, 2, 3, 2, 16.4, 12.3, 88, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (52, 2024, 7, 21, 1, 1, 1, 18.9, 10.7, 75, 10.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (53, 2024, 42, 17, 3, 4, 3, 14.7, 15.6, 92, 8.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (54, 2024, 31, 25, 0, 2, 1, 19.2, 13.9, 79, 10.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (55, 2024, 15, 19, 1, 1, 2, 17.8, 11.2, 83, 9.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (56, 2024, 37, 28, 2, 3, 2, 15.3, 14.7, 97, 8.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (57, 2024, 9, 16, 0, 1, 1, 19.8, 10.4, 71, 11.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (58, 2024, 28, 27, 3, 2, 2, 16.7, 13.5, 86, 9.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (59, 2024, 49, 23, 1, 4, 3, 14.2, 15.1, 94, 8.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (60, 2024, 22, 20, 2, 2, 1, 18.3, 12.8, 80, 9.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (61, 2024, 6, 24, 0, 1, 1, 20.1, 10.9, 68, 11.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (62, 2024, 39, 26, 3, 3, 2, 15.8, 14.3, 99, 8.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (63, 2024, 14, 15, 1, 2, 1, 17.4, 11.5, 75, 10.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (64, 2024, 47, 29, 2, 4, 3, 14.1, 15.9, 101, 7.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (65, 2024, 9, 17, 0, 1, 1, 19.7, 10.6, 69, 11.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (66, 2024, 33, 16, 2, 3, 2, 16.6, 13.2, 87, 9.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (67, 2024, 5, 22, 1, 1, 1, 20.2, 10.3, 67, 11.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (68, 2024, 31, 28, 3, 2, 2, 16.2, 13.8, 88, 9.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (69, 2024, 46, 25, 1, 4, 3, 14.5, 15.4, 97, 8.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (70, 2024, 18, 18, 2, 2, 1, 18.7, 12.5, 79, 10.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (71, 2024, 8, 23, 0, 1, 1, 20.3, 10.8, 66, 11.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (72, 2024, 41, 27, 3, 3, 2, 15.7, 14.1, 98, 8.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (73, 2024, 13, 14, 1, 2, 1, 17.3, 11.4, 74, 10.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (74, 2024, 48, 30, 2, 4, 3, 14.0, 15.8, 100, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (75, 2024, 10, 18, 0, 1, 1, 20.4, 10.5, 65, 12.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (76, 2024, 35, 15, 2, 3, 2, 16.5, 13.1, 86, 9.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (77, 2024, 4, 21, 1, 1, 1, 20.5, 10.2, 64, 12.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (78, 2024, 30, 29, 3, 2, 2, 16.1, 13.7, 87, 9.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (79, 2024, 45, 26, 1, 4, 3, 14.4, 15.3, 96, 8.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (80, 2024, 17, 19, 2, 2, 1, 18.6, 12.4, 78, 10.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (81, 2024, 7, 22, 0, 1, 1, 20.6, 10.1, 63, 12.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (82, 2024, 43, 28, 3, 3, 2, 15.6, 14.0, 97, 8.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (83, 2024, 12, 13, 1, 2, 1, 17.2, 11.3, 73, 10.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (84, 2024, 49, 29, 2, 4, 3, 13.9, 15.7, 99, 7.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (85, 2024, 8, 19, 0, 1, 1, 20.7, 10.0, 62, 12.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (86, 2024, 36, 14, 2, 3, 2, 16.4, 12.9, 85, 9.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (87, 2024, 3, 20, 1, 1, 1, 20.8, 9.9, 61, 12.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (88, 2024, 29, 30, 3, 2, 2, 15.9, 13.6, 88, 9.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (89, 2024, 44, 27, 1, 4, 3, 14.3, 15.2, 98, 8.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (90, 2024, 16, 20, 2, 2, 1, 18.5, 12.3, 77, 10.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (91, 2024, 6, 21, 0, 1, 1, 20.9, 9.8, 60, 12.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (92, 2024, 45, 26, 3, 3, 2, 15.5, 14.1, 97, 8.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (93, 2024, 11, 12, 1, 2, 1, 17.1, 11.2, 72, 10.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (94, 2024, 50, 30, 2, 4, 3, 13.8, 15.6, 98, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (95, 2024, 7, 20, 0, 1, 1, 21.0, 9.7, 59, 12.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (96, 2024, 37, 13, 2, 3, 2, 16.3, 12.8, 84, 9.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (97, 2024, 2, 19, 1, 1, 1, 21.1, 9.6, 58, 12.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (98, 2024, 28, 31, 3, 2, 2, 15.8, 13.5, 89, 9.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (99, 2024, 43, 28, 1, 4, 3, 14.2, 15.3, 97, 8.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (100, 2024, 15, 21, 2, 2, 1, 18.4, 12.2, 76, 10.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (101, 2024, 246, 15, 7, 10, 11, 14.7, 17.9, 157, 6.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (102, 2024, 221, 11, 8, 12, 10, 13.8, 18.4, 143, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (103, 2024, 290, 19, 6, 14, 12, 12.5, 16.7, 169, 5.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (104, 2024, 203, 14, 9, 9, 9, 15.6, 15.2, 150, 6.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (105, 2024, 278, 18, 5, 13, 14, 11.9, 17.8, 163, 5.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (106, 2024, 258, 13, 6, 12, 11, 14.2, 16.9, 155, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (107, 2024, 299, 20, 8, 15, 13, 12.1, 17.5, 170, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (108, 2024, 212, 12, 7, 10, 9, 13.5, 18.1, 144, 7.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (109, 2024, 281, 16, 6, 14, 12, 11.6, 17.2, 162, 5.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (110, 2024, 235, 17, 9, 11, 10, 13.1, 16.5, 152, 6.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (111, 2024, 215, 11, 8, 10, 9, 13.7, 18.2, 145, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (112, 2024, 291, 20, 6, 14, 13, 12.2, 17.6, 171, 5.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (113, 2024, 201, 13, 9, 9, 9, 15.8, 15.3, 151, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (114, 2024, 279, 19, 5, 13, 14, 12.0, 17.9, 164, 5.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (115, 2024, 255, 14, 6, 12, 11, 14.3, 17.0, 156, 6.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (116, 2024, 298, 21, 8, 15, 13, 12.3, 17.6, 172, 5.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (117, 2024, 210, 13, 7, 10, 9, 13.6, 18.3, 146, 6.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (118, 2024, 280, 17, 6, 14, 12, 11.7, 17.3, 163, 5.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (119, 2024, 230, 18, 9, 11, 10, 13.2, 16.7, 153, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (120, 2024, 217, 12, 8, 10, 9, 13.8, 18.0, 147, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (121, 2024, 292, 21, 6, 14, 13, 12.5, 17.5, 170, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (122, 2024, 200, 14, 9, 9, 9, 15.7, 15.4, 152, 6.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (123, 2024, 280, 20, 5, 13, 14, 12.1, 17.7, 165, 5.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (124, 2024, 256, 15, 6, 12, 11, 14.4, 17.1, 157, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (125, 2024, 297, 22, 8, 15, 13, 12.7, 17.4, 173, 5.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (126, 2024, 208, 14, 7, 10, 9, 13.5, 18.4, 148, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (127, 2024, 282, 18, 6, 14, 12, 11.8, 17.2, 164, 5.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (128, 2024, 228, 19, 9, 11, 10, 13.3, 16.8, 154, 6.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (129, 2024, 219, 13, 8, 10, 9, 14.0, 17.9, 149, 6.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (130, 2024, 293, 22, 6, 14, 13, 12.6, 17.6, 171, 5.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (131, 2024, 198, 15, 9, 9, 9, 15.6, 15.5, 153, 6.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (132, 2024, 283, 21, 5, 13, 14, 12.2, 17.8, 166, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (133, 2024, 206, 15, 6, 12, 11, 14.5, 17.3, 158, 6.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (134, 2024, 284, 23, 8, 15, 13, 12.8, 17.5, 174, 5.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (135, 2024, 206, 15, 7, 10, 9, 13.4, 18.5, 150, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (136, 2024, 285, 19, 6, 14, 12, 12.0, 17.3, 165, 5.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (137, 2024, 203, 16, 8, 11, 10, 14.1, 17.7, 151, 6.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (138, 2024, 286, 20, 7, 14, 13, 12.3, 17.6, 167, 5.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (139, 2024, 204, 16, 9, 10, 9, 13.3, 18.6, 152, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (140, 2024, 287, 24, 8, 15, 13, 12.7, 17.4, 175, 5.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (141, 2024, 200, 17, 7, 10, 9, 13.9, 18.4, 153, 6.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (142, 2024, 288, 22, 5, 14, 13, 12.5, 17.9, 168, 5.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (143, 2024, 205, 17, 6, 12, 11, 14.6, 17.2, 159, 5.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (144, 2024, 289, 24, 9, 15, 13, 12.9, 17.7, 176, 4.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (145, 2024, 207, 16, 8, 11, 10, 14.2, 17.8, 154, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (146, 2024, 290, 21, 7, 14, 12, 12.1, 17.5, 169, 5.2);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (147, 2024, 202, 18, 9, 10, 9, 13.2, 18.0, 155, 6.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (148, 2024, 291, 23, 8, 15, 13, 12.6, 17.6, 170, 5.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (149, 2024, 203, 17, 7, 10, 9, 13.5, 18.1, 156, 5.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (150, 2024, 292, 25, 9, 15, 13, 12.9, 17.8, 177, 4.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (151, 2024, 199, 18, 7, 10, 9, 13.8, 18.3, 157, 5.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (152, 2024, 293, 23, 6, 14, 13, 12.7, 17.7, 171, 5.0);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (153, 2024, 204, 18, 7, 10, 9, 13.6, 18.2, 158, 5.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (154, 2024, 294, 24, 10, 15, 13, 13.0, 17.6, 172, 4.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (155, 2024, 200, 19, 8, 10, 9, 13.9, 18.4, 159, 5.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (156, 2024, 295, 22, 7, 14, 12, 12.8, 17.8, 173, 4.8);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (157, 2024, 201, 19, 9, 10, 9, 13.7, 18.3, 160, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (158, 2024, 296, 25, 8, 15, 13, 13.1, 17.7, 174, 4.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (159, 2024, 202, 20, 7, 10, 9, 13.8, 18.2, 161, 5.4);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (160, 2024, 297, 24, 10, 15, 13, 13.2, 17.6, 175, 4.6);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (189, 2023, 400, 3, 17, 20, 19, 11.3, 18.7, 230, 4.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (188, 2023, 380, 2, 16, 19, 18, 11.5, 18.5, 225, 4.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (187, 2023, 360, 1, 15, 18, 17, 11.7, 18.3, 220, 4.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (186, 2023, 340, 4, 14, 17, 16, 11.9, 18.1, 215, 4.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (185, 2023, 320, 3, 13, 16, 15, 12.1, 17.9, 210, 5.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (184, 2023, 300, 2, 12, 15, 14, 12.3, 17.7, 205, 5.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (183, 2023, 280, 1, 11, 14, 13, 12.5, 17.5, 200, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (182, 2023, 260, 0, 10, 13, 12, 12.7, 17.3, 195, 5.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (181, 2023, 240, 5, 9, 12, 11, 12.9, 17.1, 190, 5.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (180, 2023, 220, 4, 8, 11, 10, 13.1, 16.9, 185, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (179, 2023, 400, 3, 17, 20, 19, 11.3, 18.7, 230, 4.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (178, 2023, 380, 2, 16, 19, 18, 11.5, 18.5, 225, 4.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (177, 2023, 360, 1, 15, 18, 17, 11.7, 18.3, 220, 4.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (176, 2023, 340, 4, 14, 17, 16, 11.9, 18.1, 215, 4.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (175, 2023, 320, 3, 13, 16, 15, 12.1, 17.9, 210, 5.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (174, 2023, 300, 2, 12, 15, 14, 12.3, 17.7, 205, 5.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (173, 2023, 280, 1, 11, 14, 13, 12.5, 17.5, 200, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (172, 2023, 260, 0, 10, 13, 12, 12.7, 17.3, 195, 5.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (171, 2023, 240, 5, 9, 12, 11, 12.9, 17.1, 190, 5.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (170, 2023, 200, 0, 8, 13, 13, 13.1, 16.9, 150, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (169, 2023, 180, 1, 7, 12, 12, 13.3, 16.7, 145, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (168, 2023, 160, 2, 6, 11, 11, 13.5, 16.5, 140, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (167, 2023, 140, 3, 5, 10, 10, 13.7, 16.3, 135, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (166, 2023, 120, 4, 4, 9, 9, 13.9, 16.1, 130, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (165, 2023, 100, 5, 3, 8, 8, 14.1, 15.9, 125, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (164, 2023, 80, 0, 2, 7, 7, 14.3, 15.7, 120, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (163, 2023, 60, 1, 1, 6, 6, 14.5, 15.5, 115, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (162, 2023, 40, 2, 0, 5, 5, 14.7, 15.3, 110, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (161, 2023, 20, 3, 0, 4, 4, 14.9, 15.1, 105, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (160, 2023, 200, 0, 8, 13, 13, 13.1, 16.9, 150, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (159, 2023, 180, 1, 7, 12, 12, 13.3, 16.7, 145, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (158, 2023, 160, 2, 6, 11, 11, 13.5, 16.5, 140, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (157, 2023, 140, 3, 5, 10, 10, 13.7, 16.3, 135, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (156, 2023, 120, 4, 4, 9, 9, 13.9, 16.1, 130, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (155, 2023, 100, 5, 3, 8, 8, 14.1, 15.9, 125, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (154, 2023, 80, 0, 2, 7, 7, 14.3, 15.7, 120, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (153, 2023, 60, 1, 1, 6, 6, 14.5, 15.5, 115, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (152, 2023, 40, 2, 0, 5, 5, 14.7, 15.3, 110, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (151, 2023, 20, 3, 0, 4, 4, 14.9, 15.1, 105, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (150, 2023, 200, 0, 8, 13, 13, 13.1, 16.9, 150, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (149, 2023, 180, 1, 7, 12, 12, 13.3, 16.7, 145, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (148, 2023, 160, 2, 6, 11, 11, 13.5, 16.5, 140, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (147, 2023, 140, 3, 5, 10, 10, 13.7, 16.3, 135, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (146, 2023, 120, 4, 4, 9, 9, 13.9, 16.1, 130, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (145, 2023, 100, 5, 3, 8, 8, 14.1, 15.9, 125, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (144, 2023, 80, 0, 2, 7, 7, 14.3, 15.7, 120, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (143, 2023, 60, 1, 1, 6, 6, 14.5, 15.5, 115, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (142, 2023, 40, 2, 0, 5, 5, 14.7, 15.3, 110, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (141, 2023, 20, 3, 0, 4, 4, 14.9, 15.1, 105, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (140, 2023, 200, 0, 8, 13, 13, 13.1, 16.9, 150, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (139, 2023, 180, 1, 7, 12, 12, 13.3, 16.7, 145, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (138, 2023, 160, 2, 6, 11, 11, 13.5, 16.5, 140, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (137, 2023, 140, 3, 5, 10, 10, 13.7, 16.3, 135, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (136, 2023, 120, 4, 4, 9, 9, 13.9, 16.1, 130, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (135, 2023, 100, 5, 3, 8, 8, 14.1, 15.9, 125, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (134, 2023, 80, 0, 2, 7, 7, 14.3, 15.7, 120, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (133, 2023, 60, 1, 1, 6, 6, 14.5, 15.5, 115, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (132, 2023, 40, 2, 0, 5, 5, 14.7, 15.3, 110, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (131, 2023, 20, 3, 0, 4, 4, 14.9, 15.1, 105, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (130, 2023, 200, 0, 8, 13, 13, 13.1, 16.9, 150, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (129, 2023, 180, 1, 7, 12, 12, 13.3, 16.7, 145, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (128, 2023, 160, 2, 6, 11, 11, 13.5, 16.5, 140, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (127, 2023, 140, 3, 5, 10, 10, 13.7, 16.3, 135, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (126, 2023, 120, 4, 4, 9, 9, 13.9, 16.1, 130, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (125, 2023, 100, 5, 3, 8, 8, 14.1, 15.9, 125, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (124, 2023, 80, 0, 2, 7, 7, 14.3, 15.7, 120, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (123, 2023, 60, 1, 1, 6, 6, 14.5, 15.5, 115, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (122, 2023, 40, 2, 0, 5, 5, 14.7, 15.3, 110, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (121, 2023, 20, 3, 0, 4, 4, 14.9, 15.1, 105, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (120, 2023, 200, 0, 8, 13, 13, 13.1, 16.9, 150, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (119, 2023, 180, 1, 7, 12, 12, 13.3, 16.7, 145, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (118, 2023, 160, 2, 6, 11, 11, 13.5, 16.5, 140, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (117, 2023, 140, 3, 5, 10, 10, 13.7, 16.3, 135, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (116, 2023, 120, 4, 4, 9, 9, 13.9, 16.1, 130, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (115, 2023, 100, 5, 3, 8, 8, 14.1, 15.9, 125, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (114, 2023, 80, 0, 2, 7, 7, 14.3, 15.7, 120, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (113, 2023, 60, 1, 1, 6, 6, 14.5, 15.5, 115, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (112, 2023, 40, 2, 0, 5, 5, 14.7, 15.3, 110, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (111, 2023, 20, 3, 0, 4, 4, 14.9, 15.1, 105, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (110, 2023, 200, 0, 8, 13, 13, 13.1, 16.9, 150, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (109, 2023, 180, 1, 7, 12, 12, 13.3, 16.7, 145, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (108, 2023, 160, 2, 6, 11, 11, 13.5, 16.5, 140, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (107, 2023, 140, 3, 5, 10, 10, 13.7, 16.3, 135, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (106, 2023, 120, 4, 4, 9, 9, 13.9, 16.1, 130, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (105, 2023, 100, 5, 3, 8, 8, 14.1, 15.9, 125, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (104, 2023, 80, 0, 2, 7, 7, 14.3, 15.7, 120, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (103, 2023, 60, 1, 1, 6, 6, 14.5, 15.5, 115, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (102, 2023, 40, 2, 0, 5, 5, 14.7, 15.3, 110, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (101, 2023, 20, 3, 0, 4, 4, 14.9, 15.1, 105, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (100, 2023, 20, 20, 0, 2, 2, 15.0, 12.5, 95, 5.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (99, 2023, 21, 21, 1, 3, 3, 15.2, 12.7, 96, 5.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (98, 2023, 22, 22, 2, 4, 4, 15.4, 12.9, 97, 5.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (97, 2023, 23, 23, 3, 5, 5, 15.6, 13.1, 98, 5.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (96, 2023, 24, 24, 4, 6, 6, 15.8, 13.3, 99, 6.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (95, 2023, 25, 25, 5, 7, 7, 16.0, 13.5, 100, 6.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (94, 2023, 26, 26, 6, 8, 8, 16.2, 13.7, 101, 6.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (93, 2023, 27, 27, 7, 9, 9, 16.4, 13.9, 102, 6.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (92, 2023, 28, 28, 8, 10, 10, 16.6, 14.1, 103, 6.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (91, 2023, 29, 29, 9, 11, 11, 16.8, 14.3, 104, 7.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (90, 2023, 30, 30, 10, 12, 12, 17.0, 14.5, 105, 7.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (89, 2023, 31, 31, 11, 13, 13, 17.2, 14.7, 106, 7.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (88, 2023, 32, 32, 12, 14, 14, 17.4, 14.9, 107, 7.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (87, 2023, 33, 33, 13, 15, 15, 17.6, 15.1, 108, 7.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (86, 2023, 34, 34, 14, 16, 16, 17.8, 15.3, 109, 8.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (85, 2023, 35, 35, 15, 17, 17, 18.0, 15.5, 110, 8.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (84, 2023, 36, 36, 16, 18, 18, 18.2, 15.7, 111, 8.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (83, 2023, 37, 37, 17, 19, 19, 18.4, 15.9, 112, 8.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (82, 2023, 38, 38, 18, 20, 20, 18.6, 16.1, 113, 8.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (81, 2023, 39, 39, 19, 21, 21, 18.8, 16.3, 114, 9.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (80, 2023, 40, 40, 20, 22, 22, 19.0, 16.5, 115, 9.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (79, 2023, 41, 41, 21, 23, 23, 19.2, 16.7, 116, 9.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (78, 2023, 42, 42, 22, 24, 24, 19.4, 16.9, 117, 9.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (77, 2023, 43, 43, 23, 25, 25, 19.6, 17.1, 118, 9.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (76, 2023, 44, 44, 24, 26, 26, 19.8, 17.3, 119, 10.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (75, 2023, 45, 45, 25, 27, 27, 20.0, 17.5, 120, 10.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (74, 2023, 46, 46, 26, 28, 28, 20.2, 17.7, 121, 10.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (73, 2023, 47, 47, 27, 29, 29, 20.4, 17.9, 122, 10.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (72, 2023, 48, 48, 28, 30, 30, 20.6, 18.1, 123, 10.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (71, 2023, 49, 49, 29, 31, 31, 20.8, 18.3, 124, 11.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (70, 2023, 50, 50, 30, 32, 32, 21.0, 18.5, 125, 11.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (69, 2023, 20, 20, 31, 2, 2, 21.2, 18.7, 126, 11.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (68, 2023, 21, 21, 32, 3, 3, 21.4, 18.9, 127, 11.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (67, 2023, 22, 22, 33, 4, 4, 21.6, 19.1, 128, 11.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (66, 2023, 23, 23, 34, 5, 5, 21.8, 19.3, 129, 12.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (65, 2023, 24, 24, 35, 6, 6, 22.0, 19.5, 130, 12.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (64, 2023, 25, 25, 36, 7, 7, 22.2, 19.7, 131, 12.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (63, 2023, 26, 26, 37, 8, 8, 22.4, 19.9, 132, 12.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (62, 2023, 27, 27, 38, 9, 9, 22.6, 20.1, 133, 12.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (61, 2023, 28, 28, 39, 10, 10, 22.8, 20.3, 134, 13.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (60, 2023, 29, 29, 40, 11, 11, 23.0, 20.5, 135, 13.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (59, 2023, 30, 30, 41, 12, 12, 23.2, 20.7, 136, 13.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (58, 2023, 31, 31, 42, 13, 13, 23.4, 20.9, 137, 13.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (57, 2023, 32, 32, 43, 14, 14, 23.6, 21.1, 138, 13.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (56, 2023, 33, 33, 44, 15, 15, 23.8, 21.3, 139, 14.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (55, 2023, 34, 34, 45, 16, 16, 24.0, 21.5, 140, 14.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (54, 2023, 35, 35, 46, 17, 17, 24.2, 21.7, 141, 14.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (53, 2023, 36, 36, 47, 18, 18, 24.4, 21.9, 142, 14.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (52, 2023, 37, 37, 48, 19, 19, 24.6, 22.1, 143, 14.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (51, 2023, 38, 38, 49, 20, 20, 24.8, 22.3, 144, 15.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (50, 2023, 39, 39, 50, 21, 21, 25.0, 22.5, 145, 15.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (49, 2023, 40, 40, 40, 22, 22, 25.2, 22.7, 146, 15.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (48, 2023, 41, 41, 41, 23, 23, 25.4, 22.9, 147, 15.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (47, 2023, 42, 42, 42, 24, 24, 25.6, 23.1, 148, 15.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (46, 2023, 43, 43, 43, 25, 25, 25.8, 23.3, 149, 16.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (45, 2023, 44, 44, 44, 26, 26, 26.0, 23.5, 150, 16.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (44, 2023, 45, 45, 45, 27, 27, 26.2, 23.7, 151, 16.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (43, 2023, 46, 46, 46, 28, 28, 26.4, 23.9, 152, 16.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (42, 2023, 47, 47, 47, 29, 29, 26.6, 24.1, 153, 16.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (41, 2023, 48, 48, 48, 30, 30, 26.8, 24.3, 154, 17.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (40, 2023, 48, 48, 48, 30, 30, 26.8, 24.3, 154, 17.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (39, 2023, 49, 49, 49, 31, 31, 27.0, 24.5, 155, 17.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (38, 2023, 50, 50, 50, 32, 32, 27.2, 24.7, 156, 17.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (37, 2023, 20, 20, 51, 2, 2, 27.4, 24.9, 157, 17.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (36, 2023, 21, 21, 52, 3, 3, 27.6, 25.1, 158, 17.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (35, 2023, 22, 22, 53, 4, 4, 27.8, 25.3, 159, 18.1);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (34, 2023, 23, 23, 54, 5, 5, 28.0, 25.5, 160, 18.3);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (33, 2023, 24, 24, 55, 6, 6, 28.2, 25.7, 161, 18.5);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (32, 2023, 25, 25, 56, 7, 7, 28.4, 25.9, 162, 18.7);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (31, 2023, 26, 26, 57, 8, 8, 28.6, 26.1, 163, 18.9);
+INSERT INTO STAT (Player_ID, Year, Runs, Wickets, Catches, "4's", "6's", "YO-YO_Score", Sold_Price, Strike_Rate, Economy)VALUES (30, 2023, 27, 27, 58, 9, 9, 28.8, 26.3, 164, 19.1);
+
+
+
+
+
+
+--PAST_MATCH
+INSERT INTO PAST_MATCH(Timestamp,Team_Name,Opponent_Team,Year,Ground_Name,Toss,Score1,Score2,Winner,Man_of_the_Match) VALUES 
+('2022-03-22 20:00:25-07','Chennai Super Kings','Mumbai Indians',2024,'M. A. Chidambaram Stadium','Chennai Super Kings','278/10','250/8',1);
+
+
+
+
+
+
+--PLAYER_SCOREBOARD
+INSERT INTO PLAYER_SCOREBOARD(Player_ID,Timestamp,Runs,Wickets,Catches,'4's','6's') VALUES
+(1,'2022-03-22 20:00:25-07',10,0,0,1,0),
+(2,'2022-03-22 20:00:25-07',20,0,0,0,3),
+(3,'2022-03-22 20:00:25-07',20,0,0,0,0),
+(4,'2022-03-22 20:00:25-07',150,0,3,10,15),
+(5,'2022-03-22 20:00:25-07',0,1,2,0,0),
+(6,'2022-03-22 20:00:25-07',5,0,0,0,0),
+(7,'2022-03-22 20:00:25-07',35,0,0,2,3),
+(8,'2022-03-22 20:00:25-07',0,1,1,0,0),
+(9,'2022-03-22 20:00:25-07',7,1,0,0,0),
+(10,'2022-03-22 20:00:25-07',8,1,0,1,0),
+(11,'2022-03-22 20:00:25-07',1,0,1,0,0),
+(21,'2022-03-22 20:00:25-07',102,1,2,10,5),
+(22,'2022-03-22 20:00:25-07',12,0,0,1,1),
+(23,'2022-03-22 20:00:25-07',10,0,1,1,0),
+(24,'2022-03-22 20:00:25-07',50,0,0,1,4),
+(25,'2022-03-22 20:00:25-07',2,0,1,0,0),
+(26,'2022-03-22 20:00:25-07',1,0,1,0,0),
+(27,'2022-03-22 20:00:25-07'20,0,0,0,3),
+(28,'2022-03-22 20:00:25-07'5,2,0,0,0),
+(29,'2022-03-22 20:00:25-07',0,0,3,0,0),
+(30,'2022-03-22 20:00:25-07',0,1,2,0,0),
+(31,'2022-03-22 20:00:25-07',0,4,0,0,0),
+(32,'2022-03-22 20:00:25-07',0,1,0,0,0);
+
+
+
+
+
+
+--IPL_SEASON
+INSERT INTO IPL_SEASON (Year, Winner, Runner_UP, Player_OF_The_Season, Orange_Cap, Purple_Cap) 
+VALUES 
+  (2023, 'Chennai Super Kings', 'Gujarat Titans', 123, 123, 124),
+  (2022, 'Gujarat Titans', 'Rajasthan Royals', 56, 46, 57);
+
+
+
+
+
+
+
+--TEAM'S_PLAYER
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (1, 'Chennai Super Kings', 2024),
+       (2, 'Chennai Super Kings', 2024),
+       (3, 'Chennai Super Kings', 2024),
+       (4, 'Chennai Super Kings', 2024),
+       (5, 'Chennai Super Kings', 2024),
+       (6, 'Chennai Super Kings', 2024),
+       (7, 'Chennai Super Kings', 2024),
+       (8, 'Chennai Super Kings', 2024),
+       (9, 'Chennai Super Kings', 2024),
+       (10, 'Chennai Super Kings', 2024),
+       (11, 'Chennai Super Kings', 2024),
+       (12, 'Chennai Super Kings', 2024),
+       (13, 'Chennai Super Kings', 2024),
+       (14, 'Chennai Super Kings', 2024),
+       (15, 'Chennai Super Kings', 2024),
+       (16, 'Chennai Super Kings', 2024),
+       (17, 'Chennai Super Kings', 2024),
+       (18, 'Chennai Super Kings', 2024),
+       (19, 'Chennai Super Kings', 2024),
+       (20, 'Chennai Super Kings', 2024);
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (21, 'Mumbai Indians', 2024),
+       (22, 'Mumbai Indians', 2024),
+       (23, 'Mumbai Indians', 2024),
+       (24, 'Mumbai Indians', 2024),
+       (25, 'Mumbai Indians', 2024),
+       (26, 'Mumbai Indians', 2024),
+       (27, 'Mumbai Indians', 2024),
+       (28, 'Mumbai Indians', 2024),
+       (29, 'Mumbai Indians', 2024),
+       (30, 'Mumbai Indians', 2024),
+       (31, 'Mumbai Indians', 2024),
+       (32, 'Mumbai Indians', 2024),
+       (33, 'Mumbai Indians', 2024),
+       (34, 'Mumbai Indians', 2024),
+       (35, 'Mumbai Indians', 2024),
+       (36, 'Mumbai Indians', 2024),
+       (37, 'Mumbai Indians', 2024),
+       (38, 'Mumbai Indians', 2024),
+       (39, 'Mumbai Indians', 2024),
+       (40, 'Mumbai Indians', 2024);
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (41, 'Royal Challengers Bengaluru', 2024),
+       (42, 'Royal Challengers Bengaluru', 2024),
+       (43, 'Royal Challengers Bengaluru', 2024),
+       (44, 'Royal Challengers Bengaluru', 2024),
+       (45, 'Royal Challengers Bengaluru', 2024),
+       (46, 'Royal Challengers Bengaluru', 2024),
+       (47, 'Royal Challengers Bengaluru', 2024),
+       (48, 'Royal Challengers Bengaluru', 2024),
+       (49, 'Royal Challengers Bengaluru', 2024),
+       (50, 'Royal Challengers Bengaluru', 2024),
+       (51, 'Royal Challengers Bengaluru', 2024),
+       (52, 'Royal Challengers Bengaluru', 2024),
+       (53, 'Royal Challengers Bengaluru', 2024),
+       (54, 'Royal Challengers Bengaluru', 2024),
+       (55, 'Royal Challengers Bengaluru', 2024),
+       (56, 'Royal Challengers Bengaluru', 2024),
+       (57, 'Royal Challengers Bengaluru', 2024),
+       (58, 'Royal Challengers Bengaluru', 2024),
+       (59, 'Royal Challengers Bengaluru', 2024),
+       (60, 'Royal Challengers Bengaluru', 2024);
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (61, 'Kolkata Knight Riders', 2024),
+       (62, 'Kolkata Knight Riders', 2024),
+       (63, 'Kolkata Knight Riders', 2024),
+       (64, 'Kolkata Knight Riders', 2024),
+       (65, 'Kolkata Knight Riders', 2024),
+       (66, 'Kolkata Knight Riders', 2024),
+       (67, 'Kolkata Knight Riders', 2024),
+       (68, 'Kolkata Knight Riders', 2024),
+       (69, 'Kolkata Knight Riders', 2024),
+       (70, 'Kolkata Knight Riders', 2024),
+       (71, 'Kolkata Knight Riders', 2024),
+       (72, 'Kolkata Knight Riders', 2024),
+       (73, 'Kolkata Knight Riders', 2024),
+       (74, 'Kolkata Knight Riders', 2024),
+       (75, 'Kolkata Knight Riders', 2024),
+       (76, 'Kolkata Knight Riders', 2024),
+       (77, 'Kolkata Knight Riders', 2024),
+       (78, 'Kolkata Knight Riders', 2024),
+       (79, 'Kolkata Knight Riders', 2024),
+       (80, 'Kolkata Knight Riders', 2024);
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (81, 'Gujarat Titans', 2024),
+       (82, 'Gujarat Titans', 2024),
+       (83, 'Gujarat Titans', 2024),
+       (84, 'Gujarat Titans', 2024),
+       (85, 'Gujarat Titans', 2024),
+       (86, 'Gujarat Titans', 2024),
+       (87, 'Gujarat Titans', 2024),
+       (88, 'Gujarat Titans', 2024),
+       (89, 'Gujarat Titans', 2024),
+       (90, 'Gujarat Titans', 2024),
+       (91, 'Gujarat Titans', 2024),
+       (92, 'Gujarat Titans', 2024),
+       (93, 'Gujarat Titans', 2024),
+       (94, 'Gujarat Titans', 2024),
+       (95, 'Gujarat Titans', 2024),
+       (96, 'Gujarat Titans', 2024),
+       (97, 'Gujarat Titans', 2024),
+       (98, 'Gujarat Titans', 2024),
+       (99, 'Gujarat Titans', 2024),
+       (100, 'Gujarat Titans', 2024);
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (101, 'Punjab Kings', 2024),
+       (102, 'Punjab Kings', 2024),
+       (103, 'Punjab Kings', 2024),
+       (104, 'Punjab Kings', 2024),
+       (105, 'Punjab Kings', 2024),
+       (106, 'Punjab Kings', 2024),
+       (107, 'Punjab Kings', 2024),
+       (108, 'Punjab Kings', 2024),
+       (109, 'Punjab Kings', 2024),
+       (110, 'Punjab Kings', 2024),
+       (111, 'Punjab Kings', 2024),
+       (112, 'Punjab Kings', 2024),
+       (113, 'Punjab Kings', 2024),
+       (114, 'Punjab Kings', 2024),
+       (115, 'Punjab Kings', 2024),
+       (116, 'Punjab Kings', 2024),
+       (117, 'Punjab Kings', 2024),
+       (118, 'Punjab Kings', 2024),
+       (119, 'Punjab Kings', 2024),
+       (120, 'Punjab Kings', 2024);
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (121, 'Rajasthan Royals', 2024),
+       (122, 'Rajasthan Royals', 2024),
+       (123, 'Rajasthan Royals', 2024),
+       (124, 'Rajasthan Royals', 2024),
+       (125, 'Rajasthan Royals', 2024),
+       (126, 'Rajasthan Royals', 2024),
+       (127, 'Rajasthan Royals', 2024),
+       (128, 'Rajasthan Royals', 2024),
+       (129, 'Rajasthan Royals', 2024),
+       (130, 'Rajasthan Royals', 2024),
+       (131, 'Rajasthan Royals', 2024),
+       (132, 'Rajasthan Royals', 2024),
+       (133, 'Rajasthan Royals', 2024),
+       (134, 'Rajasthan Royals', 2024),
+       (135, 'Rajasthan Royals', 2024),
+       (136, 'Rajasthan Royals', 2024),
+       (137, 'Rajasthan Royals', 2024),
+       (138, 'Rajasthan Royals', 2024),
+       (139, 'Rajasthan Royals', 2024),
+       (140, 'Rajasthan Royals', 2024);
+INSERT INTO "TEAM'S_PLAYER"(Player_ID, Team_Name, Year)
+VALUES (141, 'Sunrisers Hyderabad', 2024),
+       (142, 'Sunrisers Hyderabad', 2024),
+       (143, 'Sunrisers Hyderabad', 2024),
+       (144, 'Sunrisers Hyderabad', 2024),
+       (145, 'Sunrisers Hyderabad', 2024),
+       (146, 'Sunrisers Hyderabad', 2024),
+       (147, 'Sunrisers Hyderabad', 2024),
+       (148, 'Sunrisers Hyderabad', 2024),
+       (149, 'Sunrisers Hyderabad', 2024),
+       (150, 'Sunrisers Hyderabad', 2024),
+       (151, 'Sunrisers Hyderabad', 2024),
+       (152, 'Sunrisers Hyderabad', 2024),
+       (153, 'Sunrisers Hyderabad', 2024),
+       (154, 'Sunrisers Hyderabad', 2024),
+       (155, 'Sunrisers Hyderabad', 2024),
+       (156, 'Sunrisers Hyderabad', 2024),
+       (157, 'Sunrisers Hyderabad', 2024),
+       (158, 'Sunrisers Hyderabad', 2024),
+       (159, 'Sunrisers Hyderabad', 2024),
+       (160, 'Sunrisers Hyderabad', 2024);
+
+
+
+
+
+
+INSERT INTO "TEAM'S_PLAYER" (Player_ID, Team_Name, Year)
+VALUES 
+(189, 'Chennai Super Kings', 2023),
+(188, 'Chennai Super Kings', 2023),
+(187, 'Chennai Super Kings', 2023),
+(186, 'Chennai Super Kings', 2023),
+(185, 'Chennai Super Kings', 2023),
+(184, 'Chennai Super Kings', 2023),
+(183, 'Chennai Super Kings', 2023),
+(182, 'Chennai Super Kings', 2023),
+(181, 'Chennai Super Kings', 2023),
+(180, 'Chennai Super Kings', 2023),
+(179, 'Chennai Super Kings', 2023),
+(178, 'Chennai Super Kings', 2023),
+(177, 'Chennai Super Kings', 2023),
+(176, 'Chennai Super Kings', 2023),
+(175, 'Chennai Super Kings', 2023),
+(174, 'Chennai Super Kings', 2023),
+(173, 'Chennai Super Kings', 2023),
+(172, 'Chennai Super Kings', 2023),
+(171, 'Chennai Super Kings', 2023),
+(170, 'Chennai Super Kings', 2023),
+(169, 'Mumbai Indians', 2023),
+(168, 'Mumbai Indians', 2023),
+(167, 'Mumbai Indians', 2023),
+(166, 'Mumbai Indians', 2023),
+(165, 'Mumbai Indians', 2023),
+(164, 'Mumbai Indians', 2023),
+(163, 'Mumbai Indians', 2023),
+(162, 'Mumbai Indians', 2023),
+(161, 'Mumbai Indians', 2023),
+(160, 'Mumbai Indians', 2023),
+(159, 'Mumbai Indians', 2023),
+(158, 'Mumbai Indians', 2023),
+(157, 'Mumbai Indians', 2023),
+(156, 'Mumbai Indians', 2023),
+(155, 'Mumbai Indians', 2023),
+(154, 'Mumbai Indians', 2023),
+(153, 'Mumbai Indians', 2023),
+(152, 'Mumbai Indians', 2023),
+(151, 'Mumbai Indians', 2023),
+(150, 'Mumbai Indians', 2023),
+(149, 'Royal Challengers Bengaluru', 2023),
+(148, 'Royal Challengers Bengaluru', 2023),
+(147, 'Royal Challengers Bengaluru', 2023),
+(146, 'Royal Challengers Bengaluru', 2023),
+(145, 'Royal Challengers Bengaluru', 2023),
+(144, 'Royal Challengers Bengaluru', 2023),
+(143, 'Royal Challengers Bengaluru', 2023),
+(142, 'Royal Challengers Bengaluru', 2023),
+(141, 'Royal Challengers Bengaluru', 2023),
+(140, 'Royal Challengers Bengaluru', 2023),
+(139, 'Royal Challengers Bengaluru', 2023),
+(138, 'Royal Challengers Bengaluru', 2023),
+(137, 'Royal Challengers Bengaluru', 2023),
+(136, 'Royal Challengers Bengaluru', 2023),
+(135, 'Royal Challengers Bengaluru', 2023),
+(134, 'Royal Challengers Bengaluru', 2023),
+(133, 'Royal Challengers Bengaluru', 2023),
+(132, 'Royal Challengers Bengaluru', 2023),
+(131, 'Royal Challengers Bengaluru', 2023),
+(130, 'Royal Challengers Bengaluru', 2023),
+(129, 'Kolkata Knight Riders', 2023),
+(128, 'Kolkata Knight Riders', 2023),
+(127, 'Kolkata Knight Riders', 2023),
+(126, 'Kolkata Knight Riders', 2023),
+(125, 'Kolkata Knight Riders', 2023),
+(124, 'Kolkata Knight Riders', 2023),
+(123, 'Kolkata Knight Riders', 2023),
+(122, 'Kolkata Knight Riders', 2023),
+(121, 'Kolkata Knight Riders', 2023),
+(120, 'Kolkata Knight Riders', 2023),
+(119, 'Kolkata Knight Riders', 2023),
+(118, 'Kolkata Knight Riders', 2023),
+(117, 'Kolkata Knight Riders', 2023),
+(116, 'Kolkata Knight Riders', 2023),
+(115, 'Kolkata Knight Riders', 2023),
+(114, 'Kolkata Knight Riders', 2023),
+(113, 'Kolkata Knight Riders', 2023),
+(112, 'Kolkata Knight Riders', 2023),
+(111, 'Kolkata Knight Riders', 2023),
+(110, 'Kolkata Knight Riders', 2023),
+(109, 'Gujarat Titans', 2023),
+(108, 'Gujarat Titans', 2023),
+(107, 'Gujarat Titans', 2023),
+(106, 'Gujarat Titans', 2023),
+(105, 'Gujarat Titans', 2023),
+(104, 'Gujarat Titans', 2023),
+(103, 'Gujarat Titans', 2023),
+(102, 'Gujarat Titans', 2023),
+(101, 'Gujarat Titans', 2023),
+(100, 'Gujarat Titans', 2023),
+(99, 'Gujarat Titans', 2023),
+(98, 'Gujarat Titans', 2023),
+(97, 'Gujarat Titans', 2023),
+(96, 'Gujarat Titans', 2023),
+(95, 'Gujarat Titans', 2023),
+(94, 'Gujarat Titans', 2023),
+(93, 'Gujarat Titans', 2023),
+(92, 'Gujarat Titans', 2023),
+(91, 'Gujarat Titans', 2023),
+(90, 'Gujarat Titans', 2023),
+(89, 'Punjab Kings', 2023),
+(88, 'Punjab Kings', 2023),
+(87, 'Punjab Kings', 2023),
+(86, 'Punjab Kings', 2023),
+(85, 'Punjab Kings', 2023),
+(84, 'Punjab Kings', 2023),
+(83, 'Punjab Kings', 2023),
+(82, 'Punjab Kings', 2023),
+(81, 'Punjab Kings', 2023),
+(80, 'Punjab Kings', 2023),
+(79, 'Punjab Kings', 2023),
+(78, 'Punjab Kings', 2023),
+(77, 'Punjab Kings', 2023),
+(76, 'Punjab Kings', 2023),
+(75, 'Punjab Kings', 2023),
+(74, 'Punjab Kings', 2023),
+(73, 'Punjab Kings', 2023),
+(72, 'Punjab Kings', 2023),
+(71, 'Punjab Kings', 2023),
+(70, 'Punjab Kings', 2023),
+(69, 'Rajasthan Royals', 2023),
+(68, 'Rajasthan Royals', 2023),
+(67, 'Rajasthan Royals', 2023),
+(66, 'Rajasthan Royals', 2023),
+(65, 'Rajasthan Royals', 2023),
+(64, 'Rajasthan Royals', 2023),
+(63, 'Rajasthan Royals', 2023),
+(62, 'Rajasthan Royals', 2023),
+(61, 'Rajasthan Royals', 2023),
+(60, 'Rajasthan Royals', 2023),
+(59, 'Rajasthan Royals', 2023),
+(58, 'Rajasthan Royals', 2023),
+(57, 'Rajasthan Royals', 2023),
+(56, 'Rajasthan Royals', 2023),
+(55, 'Rajasthan Royals', 2023),
+(54, 'Rajasthan Royals', 2023),
+(53, 'Rajasthan Royals', 2023),
+(52, 'Rajasthan Royals', 2023),
+(51, 'Rajasthan Royals', 2023),
+(50, 'Rajasthan Royals', 2023),
+(49, 'Sunrisers Hyderabad', 2023),
+(48, 'Sunrisers Hyderabad', 2023),
+(47, 'Sunrisers Hyderabad', 2023),
+(46, 'Sunrisers Hyderabad', 2023),
+(45, 'Sunrisers Hyderabad', 2023),
+(44, 'Sunrisers Hyderabad', 2023),
+(43, 'Sunrisers Hyderabad', 2023),
+(42, 'Sunrisers Hyderabad', 2023),
+(41, 'Sunrisers Hyderabad', 2023),
+(40, 'Sunrisers Hyderabad', 2023),
+(39, 'Sunrisers Hyderabad', 2023),
+(38, 'Sunrisers Hyderabad', 2023),
+(37, 'Sunrisers Hyderabad', 2023),
+(36, 'Sunrisers Hyderabad', 2023),
+(35, 'Sunrisers Hyderabad', 2023),
+(34, 'Sunrisers Hyderabad', 2023),
+(33, 'Sunrisers Hyderabad', 2023),
+(32, 'Sunrisers Hyderabad', 2023),
+(31, 'Sunrisers Hyderabad', 2023),
+(30, 'Sunrisers Hyderabad', 2023);
+
+
+
+
+
+
+--TEAM_SPONSOR
+-- Chennai Super Kings
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Amul', 'Chennai Super Kings', 2024, 36),
+       ('ICICI Lombard', 'Chennai Super Kings', 2024, 25),
+       ('TVS Motors', 'Chennai Super Kings', 2024, 42);
+
+-- Kolkata Knight Riders
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Pepsi', 'Kolkata Knight Riders', 2024, 30),
+       ('RPSG Group', 'Kolkata Knight Riders', 2024, 18),
+       ('JSW', 'Kolkata Knight Riders', 2024, 35);
+
+-- Gujarat Titans
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Angel Broking', 'Gujarat Titans', 2024, 22),
+       ('PhonePe', 'Gujarat Titans', 2024, 48),
+       ('Mankind Pharma', 'Gujarat Titans', 2024, 38);
+
+-- Mumbai Indians
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Joy Personal Care', 'Mumbai Indians', 2024, 55),
+       ('Reliance Jio', 'Mumbai Indians', 2024, 45),
+       ('Britannia', 'Mumbai Indians', 2024, 28);
+
+-- Punjab Kings
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Dalmia Cements', 'Punjab Kings', 2024, 32),
+       ('Rapido', 'Punjab Kings', 2024, 20),
+       ('Haier', 'Punjab Kings', 2024, 40);
+
+-- Rajasthan Royals
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Google Pixel', 'Rajasthan Royals', 2024, 46),
+       ('Jindal Steel', 'Rajasthan Royals', 2024, 12),
+       ('Vodafone Idea', 'Rajasthan Royals', 2024, 33);
+
+-- Royal Challengers Bengaluru
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Parle Products', 'Royal Challengers Bengaluru', 2024, 29),
+       ('Upstox', 'Royal Challengers Bengaluru', 2024, 41),
+       ('Vimal', 'Royal Challengers Bengaluru', 2024, 37);
+
+-- Sunrisers Hyderabad
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Charged by Thums Up', 'Sunrisers Hyderabad', 2024, 48),
+       ('Star Sports', 'Sunrisers Hyderabad', 2024, 36),
+       ('Dettol', 'Sunrisers Hyderabad', 2024, 20);
+
+
+-- Chennai Super Kings
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Vimal', 'Chennai Super Kings', 2023, 42),
+       ('Mankind Pharma', 'Chennai Super Kings', 2023, 31),
+       ('Star Sports', 'Chennai Super Kings', 2023, 27);
+
+-- Kolkata Knight Riders
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('RPSG Group', 'Kolkata Knight Riders', 2023, 20),
+       ('Asian Paints', 'Kolkata Knight Riders', 2023, 38),
+       ('Pepsi', 'Kolkata Knight Riders', 2023, 45);
+
+-- Gujarat Titans
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Jindal Steel', 'Gujarat Titans', 2023, 32),
+       ('Dream11', 'Gujarat Titans', 2023, 27),
+       ('MRF Ltd.', 'Gujarat Titans', 2023, 36);
+
+-- Mumbai Indians
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('PhonePe', 'Mumbai Indians', 2023, 50),
+       ('ICICI Lombard', 'Mumbai Indians', 2023, 40),
+       ('Amul', 'Mumbai Indians', 2023, 48);
+
+-- Punjab Kings
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Britannia', 'Punjab Kings', 2023, 22),
+       ('Parle Products', 'Punjab Kings', 2023, 35),
+       ('Dalmia Cements', 'Punjab Kings', 2023, 28);
+
+-- Rajasthan Royals
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Google Pixel', 'Rajasthan Royals', 2023, 33),
+       ('Angel Broking', 'Rajasthan Royals', 2023, 42),
+       ('Sun Pharma', 'Rajasthan Royals', 2023, 26);
+
+-- Royal Challengers Bengaluru
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Vodafone Idea', 'Royal Challengers Bengaluru', 2023, 29),
+       ('Reliance Jio', 'Royal Challengers Bengaluru', 2023, 36),
+       ('Upstox', 'Royal Challengers Bengaluru', 2023, 43);
+
+-- Sunrisers Hyderabad
+INSERT INTO TEAM_SPONSOR (Company_Name, Team_Name, Year, Amount) 
+VALUES ('Haier', 'Sunrisers Hyderabad', 2023, 41),
+       ('Charged by Thums Up', 'Sunrisers Hyderabad', 2023, 47),
+       ('JioCinema', 'Sunrisers Hyderabad', 2023, 30);
+
+
+
+
+
+
+
+--SEASON_SPONSOR
+INSERT INTO SEASON_SPONSOR (Year, Company_Name, Sponsor_Type, Amount) 
+VALUES 
+(2024, 'TATA Group', 'Title', '4.5'),
+(2024, 'Star Sports', 'Broadcast', '5.9'),
+(2024, 'CEAT TYRE', 'Time_out', '3.7'),
+(2023, 'CEAT TYRE', 'Title', '5.2'),
+(2023, 'Star Sports', 'Broadcast', '4.8'),
+(2023, 'JioCinema', 'Time_out', '6.1');
+
+
+
+
+
+
+
+--UPCOMING_MATCH
+INSERT INTO UPCOMING_MATCH (Timestamp, Team_Name, Opponent_Team, Year, Gold_Price, Silver_Price, Bronze_Price, Ground_Name) VALUES
+('2024-07-01 15:30:00', 'Chennai Super Kings', 'Kolkata Knight Riders', 2024, 3000, 2000, 1000, 'MA Chidambaram Stadium'),
+('2024-07-02 19:30:00', 'Kolkata Knight Riders', 'Gujarat Titans', 2024, 2700, 1800, 900, 'Eden Gardens'),
+('2024-07-03 15:30:00', 'Gujarat Titans', 'Mumbai Indians', 2024, 2400, 1600, 800, 'Narendra Modi Stadium'),
+('2024-07-04 19:30:00', 'Mumbai Indians', 'Punjab Kings', 2024, 2100, 1400, 700, 'Wankhede Stadium'),
+('2024-07-05 15:30:00', 'Punjab Kings', 'Rajasthan Royals', 2024, 1800, 1200, 600, 'Inderjit Singh Bindra Stadium'),
+('2024-07-06 19:30:00', 'Rajasthan Royals', 'Royal Challengers Bangalore', 2024, 1500, 1000, 500, 'Sawai Mansingh Stadium'),
+('2024-07-07 15:30:00', 'Royal Challengers Bangalore', 'Sunrisers Hyderabad', 2024, 1200, 800, 400, 'M. Chinnaswamy Stadium'),
+('2024-07-08 19:30:00', 'Sunrisers Hyderabad', 'Chennai Super Kings', 2024, 900, 600, 300, 'Rajiv Gandhi International Cricket Stadium'),
+('2024-07-09 15:30:00', 'Chennai Super Kings', 'Kolkata Knight Riders', 2024, 600, 400, 200, 'MA Chidambaram Stadium'),
+('2024-07-09 19:30:00', 'Kolkata Knight Riders', 'Gujarat Titans', 2024, 300, 200, 100, 'Eden Gardens');
+
+
+
+
+
+
+--AUDIENCE
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (1, 5, 3, 2, 'Nadkarni@accountant.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (2, 7, 4, 1, 'Chopra@pilot.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (3, 3, 6, 0, 'Rao@journalist.co.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (4, 2, 5, 1, 'Rao@journalist.co.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (5, 9, 1, 4, 'Mehta@scientist.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (6, 0, 8, 7, 'Joshi@engineer.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (7, 4, 2, 3, 'Joshi@engineer.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (8, 1, 6, 5, 'Verma@healthcare.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (9, 8, 0, 2, 'Verma@healthcare.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (10, 6, 3, 9, 'Pandey@artist.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (11, 2, 7, 4, 'Menon@writer.co.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (12, 5, 1, 8, 'Menon@writer.co.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (13, 0, 3, 9, 'Bhattacharya@designer.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (14, 9, 6, 2, 'Bose@musician.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (15, 4, 8, 1, 'Bose@musician.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (16, 7, 0, 5, 'Agarwal@entrepreneur.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (17, 3, 2, 8, 'Iyer@athlete.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (18, 1, 9, 4, 'Iyer@athlete.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (19, 6, 5, 0, 'Nadkarni@chef.co.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (20, 8, 2, 7, 'Nadkarni@chef.co.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (21, 4, 1, 6, 'Chawla@actor.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (22, 0, 9, 3, 'Ahmed@politician.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (23, 7, 5, 1, 'Ahmed@politician.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (24, 2, 8, 0, 'Kapoor@socialworker.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (25, 9, 3, 4, 'Dasgupta@farmer.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (26, 5, 1, 7, 'Dasgupta@farmer.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (27, 1, 9, 3, 'Mahajan@dancer.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (28, 5, 2, 8, 'Mahajan@dancer.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (29, 0, 6, 4, 'Singh@teacher.edu');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (30, 8, 1, 7, 'Das@pharmacist.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (31, 3, 9, 2, 'Das@pharmacist.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (32, 6, 0, 5, 'Yadav@dentist.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (33, 9, 3, 1, 'Yadav@dentist.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (34, 2, 7, 4, 'Kumar@veterinarian.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (35, 7, 0, 6, 'Kumar@veterinarian.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (36, 1, 5, 8, 'Trivedi@pilot.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (37, 4, 8, 2, 'Trivedi@pilot.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (38, 0, 9, 3, 'Joshi@programmer.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (39, 6, 2, 7, 'Joshi@programmer.com');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (40, 9, 1, 5, 'Verma@dataanalyst.in');
+INSERT INTO AUDIENCE (Booking_ID, Gold_Seat, Silver_Seat, Bronze_Seat, Email_ID)VALUES (41, 9, 1, 5, 'Trivedi@lawyer.com');
+
+
+
+
+
+
+--TICKET_BOOKING
+INSERT INTO ticket_booking (Booking_ID, Timestamp) VALUES
+(1, '2024-07-01 15:30:00'),
+(1, '2024-07-02 19:30:00'),
+(1, '2024-07-03 15:30:00'),
+(1, '2024-07-04 19:30:00'),
+(1, '2024-07-05 15:30:00'),
+(1, '2024-07-06 19:30:00'),
+(1, '2024-07-07 15:30:00'),
+(1, '2024-07-08 19:30:00'),
+(1, '2024-07-09 15:30:00'),
+(1, '2024-07-09 19:30:00'),
+(2, '2024-07-01 15:30:00'),
+(2, '2024-07-02 19:30:00'),
+(2, '2024-07-03 15:30:00'),
+(2, '2024-07-04 19:30:00'),
+(2, '2024-07-05 15:30:00'),
+(2, '2024-07-06 19:30:00'),
+(2, '2024-07-07 15:30:00'),
+(2, '2024-07-08 19:30:00'),
+(2, '2024-07-09 15:30:00'),
+(2, '2024-07-09 19:30:00'),
+(3, '2024-07-01 15:30:00'),
+(3, '2024-07-02 19:30:00'),
+(3, '2024-07-03 15:30:00'),
+(3, '2024-07-04 19:30:00'),
+(3, '2024-07-05 15:30:00'),
+(3, '2024-07-06 19:30:00'),
+(3, '2024-07-07 15:30:00'),
+(3, '2024-07-08 19:30:00'),
+(3, '2024-07-09 15:30:00'),
+(3, '2024-07-09 19:30:00'),
+(4, '2024-07-01 15:30:00'),
+(4, '2024-07-02 19:30:00'),
+(4, '2024-07-03 15:30:00'),
+(4, '2024-07-04 19:30:00'),
+(4, '2024-07-05 15:30:00'),
+(4, '2024-07-06 19:30:00'),
+(4, '2024-07-07 15:30:00'),
+(4, '2024-07-08 19:30:00'),
+(4, '2024-07-09 15:30:00'),
+(4, '2024-07-09 19:30:00'),
+(5, '2024-07-01 15:30:00'),
+(5, '2024-07-02 19:30:00'),
+(5, '2024-07-03 15:30:00'),
+(5, '2024-07-04 19:30:00'),
+(5, '2024-07-05 15:30:00'),
+(5, '2024-07-06 19:30:00'),
+(5, '2024-07-07 15:30:00'),
+(5, '2024-07-08 19:30:00'),
+(5, '2024-07-09 15:30:00'),
+(5, '2024-07-09 19:30:00'),
+(6, '2024-07-01 15:30:00'),
+(6, '2024-07-02 19:30:00'),
+(6, '2024-07-03 15:30:00'),
+(6, '2024-07-04 19:30:00'),
+(6, '2024-07-05 15:30:00'),
+(6, '2024-07-06 19:30:00'),
+(6, '2024-07-07 15:30:00'),
+(6, '2024-07-08 19:30:00'),
+(6, '2024-07-09 15:30:00'),
+(6, '2024-07-09 19:30:00'),
+(7, '2024-07-01 15:30:00'),
+(7, '2024-07-02 19:30:00'),
+(7, '2024-07-03 15:30:00'),
+(7, '2024-07-04 19:30:00'),
+(7, '2024-07-05 15:30:00'),
+(7, '2024-07-06 19:30:00'),
+(7, '2024-07-07 15:30:00'),
+(7, '2024-07-08 19:30:00'),
+(7, '2024-07-09 15:30:00'),
+(7, '2024-07-09 19:30:00'),
+(8, '2024-07-01 15:30:00'),
+(8, '2024-07-02 19:30:00'),
+(8, '2024-07-03 15:30:00'),
+(8, '2024-07-04 19:30:00'),
+(8, '2024-07-05 15:30:00'),
+(8, '2024-07-06 19:30:00'),
+(8, '2024-07-07 15:30:00'),
+(8, '2024-07-08 19:30:00'),
+(8, '2024-07-09 15:30:00'),
+(8, '2024-07-09 19:30:00'),
+(9, '2024-07-01 15:30:00'),
+(9, '2024-07-02 19:30:00'),
+(9, '2024-07-03 15:30:00'),
+(9, '2024-07-04 19:30:00'),
+(9, '2024-07-05 15:30:00'),
+(9, '2024-07-06 19:30:00'),
+(9, '2024-07-07 15:30:00'),
+(9, '2024-07-08 19:30:00'),
+(9, '2024-07-09 15:30:00'),
+(9, '2024-07-09 19:30:00'),
+(10, '2024-07-01 15:30:00'),
+(10, '2024-07-02 19:30:00'),
+(10, '2024-07-03 15:30:00'),
+(10, '2024-07-04 19:30:00'),
+(10, '2024-07-05 15:30:00'),
+(10, '2024-07-06 19:30:00'),
+(10, '2024-07-07 15:30:00'),
+(10, '2024-07-08 19:30:00'),
+(10, '2024-07-09 15:30:00'),
+(10, '2024-07-09 19:30:00'),
+(11, '2024-07-01 15:30:00'),
+(11, '2024-07-02 19:30:00'),
+(11, '2024-07-03 15:30:00'),
+(11, '2024-07-04 19:30:00'),
+(11, '2024-07-05 15:30:00'),
+(11, '2024-07-06 19:30:00'),
+(11, '2024-07-07 15:30:00'),
+(11, '2024-07-08 19:30:00'),
+(11, '2024-07-09 15:30:00'),
+(11, '2024-07-09 19:30:00'),
+(12, '2024-07-01 15:30:00'),
+(12, '2024-07-02 19:30:00'),
+(12, '2024-07-03 15:30:00'),
+(12, '2024-07-04 19:30:00'),
+(12, '2024-07-05 15:30:00'),
+(12, '2024-07-06 19:30:00'),
+(12, '2024-07-07 15:30:00'),
+(12, '2024-07-08 19:30:00'),
+(12, '2024-07-09 15:30:00'),
+(12, '2024-07-09 19:30:00'),
+(13, '2024-07-01 15:30:00'),
+(13, '2024-07-02 19:30:00'),
+(13, '2024-07-03 15:30:00'),
+(13, '2024-07-04 19:30:00'),
+(13, '2024-07-05 15:30:00'),
+(13, '2024-07-06 19:30:00'),
+(13, '2024-07-07 15:30:00'),
+(13, '2024-07-08 19:30:00'),
+(13, '2024-07-09 15:30:00'),
+(13, '2024-07-09 19:30:00'),
+(14, '2024-07-01 15:30:00'),
+(14, '2024-07-02 19:30:00'),
+(14, '2024-07-03 15:30:00'),
+(14, '2024-07-04 19:30:00'),
+(14, '2024-07-05 15:30:00'),
+(14, '2024-07-06 19:30:00'),
+(14, '2024-07-07 15:30:00'),
+(14, '2024-07-08 19:30:00'),
+(14, '2024-07-09 15:30:00'),
+(14, '2024-07-09 19:30:00'),
+(15, '2024-07-01 15:30:00'),
+(15, '2024-07-02 19:30:00'),
+(15, '2024-07-03 15:30:00'),
+(15, '2024-07-04 19:30:00'),
+(15, '2024-07-05 15:30:00'),
+(15, '2024-07-06 19:30:00'),
+(15, '2024-07-07 15:30:00'),
+(15, '2024-07-08 19:30:00'),
+(15, '2024-07-09 15:30:00'),
+(15, '2024-07-09 19:30:00'),
+(16, '2024-07-01 15:30:00'),
+(16, '2024-07-02 19:30:00'),
+(16, '2024-07-03 15:30:00'),
+(16, '2024-07-04 19:30:00'),
+(16, '2024-07-05 15:30:00'),
+(16, '2024-07-06 19:30:00'),
+(16, '2024-07-07 15:30:00'),
+(16, '2024-07-08 19:30:00'),
+(16, '2024-07-09 15:30:00'),
+(16, '2024-07-09 19:30:00'),
+(17, '2024-07-01 15:30:00'),
+(17, '2024-07-02 19:30:00'),
+(17, '2024-07-03 15:30:00'),
+(17, '2024-07-04 19:30:00'),
+(17, '2024-07-05 15:30:00'),
+(17, '2024-07-06 19:30:00'),
+(17, '2024-07-07 15:30:00'),
+(17, '2024-07-08 19:30:00'),
+(17, '2024-07-09 15:30:00'),
+(17, '2024-07-09 19:30:00'),
+(18, '2024-07-01 15:30:00'),
+(18, '2024-07-02 19:30:00'),
+(18, '2024-07-03 15:30:00'),
+(18, '2024-07-04 19:30:00'),
+(18, '2024-07-05 15:30:00'),
+(18, '2024-07-06 19:30:00'),
+(18, '2024-07-07 15:30:00'),
+(18, '2024-07-08 19:30:00'),
+(18, '2024-07-09 15:30:00'),
+(18, '2024-07-09 19:30:00'),
+(19, '2024-07-01 15:30:00'),
+(19, '2024-07-02 19:30:00'),
+(19, '2024-07-03 15:30:00'),
+(19, '2024-07-04 19:30:00'),
+(19, '2024-07-05 15:30:00'),
+(19, '2024-07-06 19:30:00'),
+(19, '2024-07-07 15:30:00'),
+(19, '2024-07-08 19:30:00'),
+(19, '2024-07-09 15:30:00'),
+(19, '2024-07-09 19:30:00'),
+(20, '2024-07-01 15:30:00'),
+(20, '2024-07-02 19:30:00'),
+(20, '2024-07-03 15:30:00'),
+(20, '2024-07-04 19:30:00'),
+(20, '2024-07-05 15:30:00'),
+(20, '2024-07-06 19:30:00'),
+(20, '2024-07-07 15:30:00'),
+(20, '2024-07-08 19:30:00'),
+(20, '2024-07-09 15:30:00'),
+(20, '2024-07-09 19:30:00');
+(41, '2024-07-09 19:30:00');
