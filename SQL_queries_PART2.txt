@@ -1,0 +1,249 @@
+-- 1. Find top 3 players with highest strike rate in 2023 (min 200 runs required)
+SELECT p.name, (SUM(s.runs)*100.0 / SUM(s.balls)) AS strike_rate
+FROM stat s 
+NATURAL JOIN player p
+WHERE year = 2023
+GROUP BY p.name
+HAVING SUM(s.runs) >= 200
+ORDER BY strike_rate DESC
+LIMIT 3;
+
+-- 2. Which team’s players together scored the most runs in 2023
+SELECT t.team_name, SUM(s.runs) AS total_runs
+FROM "TEAM'S_PLAYER" t 
+NATURAL JOIN stat s
+WHERE year = 2023
+GROUP BY t.team_name
+ORDER BY total_runs DESC
+LIMIT 1;
+
+-- 3. Find top 5 bowlers with best economy in IPL history (min 50 overs bowled)
+SELECT p.name, (SUM(s.runs)*1.0 / SUM(s.overs)) AS economy
+FROM stat s 
+NATURAL JOIN player p
+GROUP BY p.name
+HAVING SUM(s.overs) >= 50
+ORDER BY economy ASC
+LIMIT 5;
+
+-- 4. List teams who have won at least 2 IPL trophies
+SELECT winner, COUNT(*) AS trophies
+FROM IPL_SEASON
+GROUP BY winner
+HAVING COUNT(*) >= 2;
+
+-- 5. Which venue has hosted finals the maximum number of times
+SELECT ground_name, COUNT(*) AS finals_hosted
+FROM upcoming_match
+WHERE match_type = 'Final'
+GROUP BY ground_name
+ORDER BY finals_hosted DESC
+LIMIT 1;
+
+-- 6. List players who have captained more than one team in IPL history
+SELECT captain, COUNT(DISTINCT team_name) AS teams_captained
+FROM team
+GROUP BY captain
+HAVING COUNT(DISTINCT team_name) > 1;
+
+-- 7. Find the top scorer in each season (using window function - RANK)
+SELECT year, name, runs
+FROM (
+   SELECT s.year, p.name, SUM(s.runs) AS runs,
+          RANK() OVER (PARTITION BY s.year ORDER BY SUM(s.runs) DESC) AS rnk
+   FROM stat s
+   NATURAL JOIN player p
+   GROUP BY s.year, p.name
+) ranked
+WHERE rnk = 1;
+
+-- 8. Average ticket price paid by users city-wise for 2024 matches
+SELECT city, AVG(total_amount) AS avg_ticket_price
+FROM (
+   SELECT u.email_id, st.city, 
+          (tb.gold_seat*um.gold_price + tb.silver_seat*um.silver_price + tb.bronze_seat*um.bronze_price) AS total_amount
+   FROM user u
+   NATURAL JOIN audience a
+   NATURAL JOIN ticket_booking tb
+   NATURAL JOIN upcoming_match um
+   JOIN stadium st ON um.ground_name = st.ground_name
+   WHERE um.year = 2024
+) AS details
+GROUP BY city;
+
+-- 9. Most valuable player of each year (max runs + wickets combined)
+SELECT year, name, (SUM(runs) + SUM(wickets)) AS points
+FROM stat NATURAL JOIN player
+GROUP BY year, name
+HAVING (SUM(runs) + SUM(wickets)) = (
+   SELECT MAX(runs+wickets) 
+   FROM stat NATURAL JOIN player 
+   WHERE stat.year = year
+);
+
+-- 10. Highest paid player each year (based on sold_price)
+SELECT year, name, sold_price
+FROM (
+   SELECT year, name, sold_price,
+          RANK() OVER (PARTITION BY year ORDER BY sold_price DESC) AS rnk
+   FROM stat NATURAL JOIN player
+) ranked
+WHERE rnk = 1;
+
+
+
+-- 11. List top 3 players with highest strike rate in 2023.
+select player_id, name, (sum(runs)*100.0/sum(balls_faced)) as strike_rate
+from stat natural join player
+where year=2023
+group by player_id,name
+order by strike_rate desc
+limit 3;
+
+-- 12. Find the player who has taken the most wickets in IPL history.
+select player_id, name, sum(wickets) as total_wickets
+from stat natural join player
+group by player_id,name
+order by total_wickets desc
+limit 1;
+
+-- 13. Which team has won the most IPL seasons?
+select winner, count(*) as total_wins
+from ipl_season
+group by winner
+order by total_wins desc
+limit 1;
+
+-- 14.  Find all players who have played for more than 2 different teams.
+select player_id,name,count(distinct team_name) as teams_played
+from "TEAM'S_PLAYER" natural join player
+group by player_id,name
+having count(distinct team_name) > 2;
+
+-- 15. Average runs scored per season by Rohit Sharma.
+select year, avg(runs) as avg_runs
+from stat natural join player
+where name='Rohit Sharma'
+group by year
+order by year;
+
+-- 16. List the top 5 stadiums by total tickets sold (all matches combined).
+select ground_name, sum(gold_seat+silver_seat+bronze_seat) as total_tickets
+from ticket_booking natural join audience natural join upcoming_match
+group by ground_name
+order by total_tickets desc
+limit 5;
+
+-- 17. Which team spent the highest total amount on players in 2024?
+select team_name, sum(sold_price) as total_spent
+from "TEAM'S_PLAYER" natural join player
+where year=2024
+group by team_name
+order by total_spent desc
+limit 1;
+
+-- 18. List the player(s) who scored both a century and took a 5-wicket haul in the same season.
+select distinct p.name, t.year
+from stat s join player p on s.player_id=p.player_id
+join "TEAM'S_PLAYER" t on p.player_id=t.player_id
+where year in (
+  select year from stat where runs >= 100
+) 
+and year in (
+  select year from stat where wickets >= 5
+);
+
+-- 19. Find the most consistent batsman (highest average runs across all seasons).
+select player_id,name, (sum(runs)*1.0/count(distinct year)) as avg_runs_per_season
+from stat natural join player
+group by player_id,name
+order by avg_runs_per_season desc
+limit 1;
+
+-- 20. Name the players who were captain and also won 'Player of the Season' in the same year.
+select p.name,t.year
+from team t join player p on t.captain=p.name
+where (t.team_name,t.year) in (
+    select team_name,year
+    from "TEAM'S_PLAYER"
+    where (player_id,year) in (
+        select player_of_the_season,year from ipl_season
+    )
+);
+
+
+-- 21. Which team spent the highest total amount on players in 2023?
+select team_name, sum(sold_price) as total_spent
+from "TEAM'S_PLAYER" natural join player
+where year=2024
+group by team_name
+order by total_spent desc
+limit 1;
+
+
+-- 22. Average ticket price paid by users city-wise for 2023 matches
+SELECT city, AVG(total_amount) AS avg_ticket_price
+FROM (
+   SELECT u.email_id, st.city, 
+          (tb.gold_seat*um.gold_price + tb.silver_seat*um.silver_price + tb.bronze_seat*um.bronze_price) AS total_amount
+   FROM user u
+   NATURAL JOIN audience a
+   NATURAL JOIN ticket_booking tb
+   NATURAL JOIN upcoming_match um
+   JOIN stadium st ON um.ground_name = st.ground_name
+   WHERE um.year = 2024
+) AS details
+GROUP BY city;
+
+
+-- 23. Which team’s players together scored the most runs in 2025
+SELECT t.team_name, SUM(s.runs) AS total_runs
+FROM "TEAM'S_PLAYER" t 
+NATURAL JOIN stat s
+WHERE year = 2023
+GROUP BY t.team_name
+ORDER BY total_runs DESC
+LIMIT 1;
+
+
+-- 24. Find top 3 players with highest strike rate in 2023 (min 200 runs required)
+SELECT p.name, (SUM(s.runs)*100.0 / SUM(s.balls)) AS strike_rate
+FROM stat s 
+NATURAL JOIN player p
+WHERE year = 2023
+GROUP BY p.name
+HAVING SUM(s.runs) >= 200
+ORDER BY strike_rate DESC
+LIMIT 3;
+
+
+-- 25. Which team spent the highest total amount on players in 2025?
+select team_name, sum(sold_price) as total_spent
+from "TEAM'S_PLAYER" natural join player
+where year=2024
+group by team_name
+order by total_spent desc
+limit 1;
+
+
+-- 26. Average ticket price paid by users city-wise for 2025 matches
+SELECT city, AVG(total_amount) AS avg_ticket_price
+FROM (
+   SELECT u.email_id, st.city, 
+          (tb.gold_seat*um.gold_price + tb.silver_seat*um.silver_price + tb.bronze_seat*um.bronze_price) AS total_amount
+   FROM user u
+   NATURAL JOIN audience a
+   NATURAL JOIN ticket_booking tb
+   NATURAL JOIN upcoming_match um
+   JOIN stadium st ON um.ground_name = st.ground_name
+   WHERE um.year = 2024
+) AS details
+GROUP BY city;
+
+
+
+-- 27. List teams who have won at least 2 IPL trophies
+SELECT winner, COUNT(*) AS trophies
+FROM IPL_SEASON
+GROUP BY winner
+HAVING COUNT(*) >= 2;
